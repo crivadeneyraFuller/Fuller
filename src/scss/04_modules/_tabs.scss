@@ -1,0 +1,40 @@
+.nav {
+  &-item {
+    background-color: var(--c-white);
+    border-radius: rem(10px) rem(10px) rem(10px) 0;
+    box-shadow: var(--shadow--color) var(--shadow--size);
+  }
+
+  &-item--active {
+    background-color: var(--c-blue--extra-strong);
+    color: var(--c-white);
+  }
+
+  &-link {
+    background-color: var(--c-blue--white);
+    color: var(--c-blue--extra-strong);
+    transition: background-color 300ms, color 300ms;
+
+    &--active {
+      background-color: var(--c-blue--extra-strong);
+      color: var(--c-white);
+    }
+  }
+
+  &-tabs &-link {
+    @include smartphone {
+      font-size: rem(10px);
+    }
+  }
+}
+@media(max-width:550px) {
+  li.nav-item.d-flex {
+    width: 100%;
+  }
+  .nav-tabs .nav-link {
+    width: 100%;
+  }
+  .nav-item {
+    width: 100%;
+  }
+}

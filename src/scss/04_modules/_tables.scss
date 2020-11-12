@@ -1,0 +1,35 @@
+.table-qlik > .qv-st-header{
+    background-color: var(--c-blue--extra-light);
+  }
+
+  .qv-st-header th {
+    border: none;
+    color: var(--c-black) !important;
+    font-weight: bold;
+  }
+
+  .qv-st-value  {
+    text-align: center !important;
+  }
+
+  .qv-object-content-container table tbody tr td {
+    padding: rem(12px) 0;
+  }
+
+  .qv-object-content-container table {
+    border-collapse: initial;
+  }
+
+
+.table-pivot {
+  .qv-pt .cell.header {
+    background-color: var(--c-blue--extra-light);
+  }
+
+  .qv-pt .cell .top-meta-headers .lui-button,
+  .qv-pt .cell .left-meta-headers .lui-button {
+    background-color: var(--c-blue--extra-light);
+    border: none;
+    color: var(--c-black) !important;
+  }
+}

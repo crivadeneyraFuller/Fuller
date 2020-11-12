@@ -1,0 +1,41 @@
+.tooltip-pro {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-pro .tiptext {
+  visibility: hidden;
+  width: rem(536px);
+  background-color: var(--c-white-gray);
+  color: var(--c-grey-dark);
+  text-align: center;
+  border-radius: 3px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 5px 10px rgba($color: #000000, $alpha: .16);
+  font-size: rem(18px);
+  background: red !important;
+}
+.tooltip-pro .tiptext::after {
+  content: "";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+}
+.tooltip-pro:hover .tiptext {
+  visibility: visible;
+}
+
+.tooltip-pro.right .tiptext{
+  top: -5px;
+  left: 110%;
+}
+.tooltip-pro.right .tiptext::after{
+  margin-top: -5px;
+  top: 50%;
+  right: 100%;
+  border-color: transparent var(--c-white-gray) transparent transparent;
+}
+// .qv-tooltip {
+//   max-width: 450px;
+// }

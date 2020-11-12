@@ -1,0 +1,34 @@
+.indicator {
+  height: rem(12px);
+  width: rem(12px);
+
+  &--blue-base {
+    background-color: var(--c-blue--base);
+  }
+
+  &--blue-hard {
+    background-color: var(--c-blue--hard);
+  }
+
+  &--pink-hard {
+    background-color: var(--c-pink--hard);
+  }
+
+  &--purpule-base {
+    background-color: var(--c-purpule--base);
+  }
+  
+  &--blue-gray {
+    background-color: var(--c-blue--gray);
+  }
+
+  &--rectangule {
+    height: rem(4px);
+    width: rem(12px);
+  }
+  &--circule {
+    height: rem(12px);
+    width: rem(12px);
+    border-radius: 50%;
+  }
+}

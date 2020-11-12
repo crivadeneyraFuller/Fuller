@@ -1,0 +1,22 @@
+.modal {
+  z-index: 1000;
+
+  &__close {
+    height: rem(39px);
+    opacity: 1;
+    width: rem(39px);
+  }
+
+  &-backdrop {
+    background-color: var(--c-blue--extra-strong);
+    z-index: 100;
+
+    &-show {
+      opacity: .7;
+    }
+  }
+}
+
+.modal-title {
+  color: #666;
+}

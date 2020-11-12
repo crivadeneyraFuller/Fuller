@@ -1,0 +1,23 @@
+//- .modal__box
+//-     .modal__comp.d-flex.justify-content-center.align-items-center.h-100
+//-         .card.card-modal
+//-             .close__modal.is-cursor(ng-click="modal.close({dato:'0'})")
+//-                 span Cerrar
+//-                 img(src="../../assets/img/btnAgregar.svg", alt="")
+//-             .modal__content.p-3(ng-transclude)
+
+//- Trigger
+button(type='button', aria-haspopup='true', aria-expanded='false', data-toggle="modal", data-target="{{'#'+$ctrl.idObj}}" ng-click="$ctrl.cambioModal()")
+
+//- Modal
+.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalCompLabel', aria-hidden='true' id="{{$ctrl.idObj}}")
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h5#modalCompLabel.modal-title {{$ctrl.title}}
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        get-object(obj-id="obj" ng-repeat='obj in $ctrl.idObjs')
+      .modal-footer
+        button.btn.btn-secondary(type='button', data-dismiss='modal') Aceptar

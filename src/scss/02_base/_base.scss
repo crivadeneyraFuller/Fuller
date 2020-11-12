@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: map-get($font , family);
+  font-size: map-get($font , size);
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  stroke: unset !important;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  padding-top: 87px;
+
+  @include smartphone {
+    padding-top: 95px;
+  }
+}
+
+.qv-object {
+  background-color: transparent;
+}
+
+.modalMob {
+  @include smartphone {
+    height: 50vh !important;
+    overflow: scroll !important;
+  }
+}
+.scrollbar-track.fade {
+  opacity: 1 !important;
+}
+.scrollbar-track {
+  opacity: 1;
+  margin-left: 3px;
+ }
+ .modalmt-xs {
+  @include smartphone {
+    margin-top: 120px;
+  }
+ }

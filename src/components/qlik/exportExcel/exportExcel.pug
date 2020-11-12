@@ -1,0 +1,4 @@
+button.btn-excel.shadow.px-4.py-2.mb-3.d-flex.justify-content-between(href='', ng-click='exportData($ctrl.id)')
+    span(ng-if='!$ctrl.descargado') {{$ctrl.title}}
+    span(ng-if='$ctrl.descargado') Descargando...
+    img.ml-5(src="../../../assets/img/excel.svg", alt="" ng-if="$ctrl.image")

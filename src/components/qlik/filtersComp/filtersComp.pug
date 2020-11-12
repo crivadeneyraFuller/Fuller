@@ -1,0 +1,17 @@
+-// Componente de select desarrollado por nosotros
+div(ng-if="!$ctrl.native")
+  .buttom(href='', ng-click='$ctrl.showList()' class='filter__buttom')
+    span.flecha-desplegable(ng-class="{'rotar':($ctrl.dropdownlist)}")
+      | {{$ctrl.name}}
+  ul.lui-list(ng-if='$ctrl.dropdownlist')
+    li.lui-list__item.itemlist(ng-if="$ctrl.sorting=='desc'", ng-repeat="item in $ctrl.list | orderBy: 'qNum': true", ng-click='$ctrl.select(item, $ctrl.dimension);', ng-class="{'selected': (item.qState == 'S'), 'disabled': (item.qState == 'X'),'alternative': (item.qState == 'A')}")
+      span {{item.qText}}
+    li.lui-list__item.itemlist(ng-if="$ctrl.sorting=='asc'", ng-repeat="item in $ctrl.list | orderBy: 'qNum': false", ng-click='$ctrl.select(item, $ctrl.dimension);', ng-class="{'selected': (item.qState == 'S'), 'disabled': (item.qState == 'X'),'alternative': (item.qState == 'A')}")
+      span {{item.qText}}
+
+
+-// Componente de select de navegador
+div(ng-if="$ctrl.native" )
+  select.select.position-relative.mr-2(name='', id='', ng-model="$ctrl.item.selected" ng-change="$ctrl.select($ctrl.item.selected,$ctrl.dimension)" ng-class="{'selected': (item.qState == 'S'), 'disabled': (item.qState == 'X'),'alternative': (item.qState == 'A')}")
+    option( ng-if='$ctrl.newOption' value='{{ $ctrl.titleOption }}' ) {{ $ctrl.titleOption }}
+    option( ng-repeat="item in $ctrl.list | orderBy: 'qNum'", ng-hidden="$index==0" value='{{item.qText}}') {{ item.qText }}

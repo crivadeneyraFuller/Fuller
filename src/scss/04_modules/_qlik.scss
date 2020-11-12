@@ -1,0 +1,38 @@
+// Current Selections
+@include smartphone {
+  .qv-selections-pager > .buttons,
+  .qv-selections-pager > .buttons-end {
+    display: none;
+  }
+}
+
+.qv-panel-current-selections .name,
+.current-selection-elem .values {
+  font-size: rem(13px) !important;
+  max-height: initial;
+}
+
+.hide-icon-search .lui-icon--search {
+  display: none;
+}
+
+.qv-panel-current-selections .text-wrap span {
+  display: block !important;
+}
+
+// AnyCharts
+.anychart-credits-text,
+.anychart-credits-logo {
+  display: none;
+}
+
+// Listado de Qlik
+.qv-listbox li {
+  border: none;
+}
+
+// Tooltip
+tspan,
+text {
+  font-size: 12px !important;
+}

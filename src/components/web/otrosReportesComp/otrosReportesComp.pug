@@ -1,0 +1,103 @@
+header-comp 
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2
+  .row.pt-sm-3.pt-md-4.flex-wrap
+    .col-12
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Reportes
+.container-fluid.pb-4.dashboard-page.mt-0.mt-md-n5
+  .row.mb-md-3.pb-md-3.header__cards
+    .col-12.mb-3
+      .card
+        .mb-2
+          .d-flex.justify-content-between.align-items-center
+            .d-flex.justify-content-between.align-items-center
+              .dropdown.mr-3
+                button#dropdownMenuButton.btn.btn-filtrosGasto.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                  span(ng-if="$ctrl.vComparativoAnio2==0") Año Inicial
+                  span(ng-if="$ctrl.vComparativoAnio2!==0") {{ $ctrl.vComparativoAnio2 }}
+                .dropdownSelect.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2018')") 2018
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2019')") 2019
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2020')") 2020
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2021')") 2021
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2022')") 2022
+              .dropdown.mr-3
+                button#dropdownMenuButton.btn.btn-filtrosGasto.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                  span(ng-if="$ctrl.vComparativaMin2==0") Campaña Inicial
+                  span(ng-if="$ctrl.vComparativaMin2!==0") {{ $ctrl.vComparativaMin2 }}
+                .dropdownSelect.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','1')") 1
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','2')") 2
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','3')") 3
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','4')") 4
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','5')") 5
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','6')") 6
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','7')") 7
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','8')") 8
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','9')") 9
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','10')") 10
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','11')") 11
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','12')") 12
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','13')") 13
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','14')") 14
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','15')") 15
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','16')") 16
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','17')") 17
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','18')") 18
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','19')") 19
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','20')") 20
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','21')") 21
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','22')") 22
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','23')") 23
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','24')") 24
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','25')") 25
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMin2','26')") 26
+              .dropdown.mr-3
+                button#dropdownMenuButton.btn.btn-filtrosGasto.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                  span(ng-if="$ctrl.vComparativoAnio1==0") Año Final
+                  span(ng-if="$ctrl.vComparativoAnio1!==0") {{ $ctrl.vComparativoAnio1 }}
+                .dropdownSelect.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2018')") 2018
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2019')") 2019
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2020')") 2020
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2021')") 2021
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2022')") 2022
+              .dropdown.mr-3
+                button#dropdownMenuButton.btn.btn-filtrosGasto.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                  span(ng-if="$ctrl.vComparativaMax1==0") Campaña Final
+                  span(ng-if="$ctrl.vComparativaMax1!==0") {{ $ctrl.vComparativaMax1 }}
+                .dropdownSelect.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','1')") 1
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','2')") 2
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','3')") 3
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','4')") 4
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','5')") 5
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','6')") 6
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','7')") 7
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','8')") 8
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','9')") 9
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','10')") 10
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','11')") 11
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','12')") 12
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','13')") 13
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','14')") 14
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','15')") 15
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','16')") 16
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','17')") 17
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','18')") 18
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','19')") 19
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','20')") 20
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','21')") 21
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','22')") 22
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','23')") 23
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','24')") 24
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','25')") 25
+                  .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativaMax1','26')") 26
+            span
+              button.mr-4.btn.btn-primary.bg-white.border-0.px-3( ng-click="$ctrl.exportDataExcel('ARjber')" )
+                span.pr-3.txt-light Exportar
+                img( src='../../../assets/icons/icon-excel.svg' )
+              a.mb-3( href="#/otrosReportesSeleccion")
+                img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+          .row.mt-3
+            .col-12.mt-3
+              get-object.w-100( obj-id='{{ $ctrl.tablaReportes }}' height='700px' app='FullerApp_Reporte_v2' num-obj='1' options='false')

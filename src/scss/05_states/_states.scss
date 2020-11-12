@@ -1,0 +1,143 @@
+body, html {
+  font-family: 'Nunito';
+}
+h1, h2, h3, h4, h5, h6, p, span, strong, div, small {
+  font-family: 'Nunito';
+}
+.is-cursor {
+  cursor: pointer;
+}
+
+.is-h1 {
+  font-size: rem(47px);
+  font-family: 'Nunito';
+}
+
+.is-h2 {
+  font-size: rem(42px);
+  font-family: 'Nunito';
+}
+
+.is-h3 {
+  font-size: rem(32px);
+  font-family: 'Nunito';
+  @include smartphone {
+    font-size: rem(28px);
+  }
+}
+
+.is-h4 {
+  font-size: rem(18px);
+  font-family: 'Nunito';
+    @include smartphone {
+      font-size: rem(18px);
+    }
+}
+
+.is-h5 {
+  font-size: rem(14px);
+  font-family: 'Nunito';
+  @include smartphone {
+    font-size: rem(14px);
+  }
+}
+
+.is-h6 {
+  font-size: rem(14px);
+  font-family: 'Nunito';
+
+  @include smartphone {
+    font-size: rem(12px);
+  }
+}
+
+.is-font-weight--bolder {
+  font-weight: 900;
+}
+.is-font-weight--bold {
+  font-weight: 800;
+}
+.is-font-weight--semibold {
+  font-weight: 600;
+}
+
+.is-font-weight--medium {
+  font-weight: 500;
+}
+
+.is-font-weight--regular {
+  font-weight: 400;
+}
+
+.is-font-weight--light {
+  font-weight: 300;
+}
+
+.is-font-weight--extra-light {
+  font-weight: 200;
+}
+
+.is-text-shadow {
+  text-shadow: var(--c-black) var(--shadow--size);
+}
+
+.is-shadow {
+  box-shadow: var(--shadow--color) var(--shadow--size);
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+// Bootstrap Class
+.text-pinkDark {
+  color: #B03E63;
+}
+.text-primary {
+  color: var(--c-blue--extra-strong) !important
+}
+.text-blue-light {
+  color: var(--c-blue--strong) !important
+}
+.txt-accent {
+  color: var(--c-blue--base) !important;
+}
+.bg-primary {
+  background-color: var(--c-blue--strong) !important;
+}
+
+.txt-light {
+  color: #595959;
+}
+.bg-light {
+  background-color: var(--c-gray--extra-light) !important;
+}
+
+
+.claseCool {
+  @include smartphone {
+    min-width: 1400px;
+  }
+}
+.claseCool2 {
+  @include smartphone {
+    min-width: 1000px;
+  }
+}
+
+.cards-container {
+  @include smartphone {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
+.mt-filter {
+  margin-top: 150px;
+  @include smartphone {
+    margin-top: 0px;
+  }
+}

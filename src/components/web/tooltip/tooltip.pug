@@ -1,0 +1,6 @@
+.tooltip-pro.right
+  img.is-cursor(src='./../../../assets/icons/information.svg', style='padding-top: 5px', alt='information tooltip')
+    get-object-data(obj-id='{{$ctrl.objId}}' ng-if='$ctrl.objData')
+        span.tiptext.p-4.text-left.ml-3 {{reply.totals[0].qText}}
+    span.tiptext.p-4.text-left.ml-3(ng-if='!$ctrl.objData')
+        | {{$ctrl.text}}

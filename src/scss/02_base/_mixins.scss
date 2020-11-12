@@ -1,0 +1,69 @@
+// Media Queries
+// Smartphone width
+// 300px - 768px
+@mixin smartphone {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+// Tablet width
+// 769px - 991px
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+// Laptop width
+// 992px -1199px
+@mixin laptop {
+  @media (min-width: #{$desktop-width}) and (max-width: #{$television-width - 1px}) {
+    @content;
+  }
+}
+
+// Television width
+// 1200 >
+@mixin television {
+  @media (min-width: #{$television-width}) {
+    @content;
+  }
+}
+
+// iPhone X, iPhone XR, iPhone XS, iPhone XS Max
+@mixin iphonex {
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+
+  @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+    @content;
+  }
+
+  @media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    @content;
+  }
+
+  @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+    @content;
+  }
+}
+
+@mixin iphone678normal {
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin iphone678plus {
+  @media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    @content;
+  }
+}

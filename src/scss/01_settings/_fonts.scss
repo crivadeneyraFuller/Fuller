@@ -1,0 +1,32 @@
+// Codificacion de texto
+@charset 'utf-8';
+
+@font-face {
+  font-family: 'Poppins--bold';
+  font-weight: 700;
+  src: url('../../assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins--semibold';
+  font-weight: 600;
+  src: url('../../assets/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins--medium';
+  font-weight: 500;
+  src: url('../../assets/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins--regular';
+  font-weight: 400;
+  src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins--light';
+  font-weight: 300;
+  src: url('../../assets/fonts/Poppins-Light.ttf');
+}

@@ -1,0 +1,27 @@
+.select--white {
+  select {
+    background: none;
+    border: rem(2px) solid var(--c-white);
+    border-radius: rem(4px);
+    color: var(--c-white);
+    padding: rem(4px);
+  }
+
+  option {
+    color: var(--c-black);
+  }
+}
+
+.select--black {
+  select {
+    background: none;
+    border: rem(2px) solid var(--c-black);
+    border-radius: rem(4px);
+    color: var(--c-black);
+    padding: rem(4px);
+  }
+
+  option {
+    color: var(--c-black);
+  }
+}

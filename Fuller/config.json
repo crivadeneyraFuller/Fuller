@@ -1,0 +1,202 @@
+{
+    "appName": "FullerApp_v1",
+    "appNameOtros": "FullerApp_Reporte_v2",
+    "apps": {
+        "local": {
+            "FullerApp_v1": "FullerApp_v1.qvf",
+            "FullerApp_Reporte_v2": "FullerApp_Reporte_v2.qvf"
+        },
+        "servidor": {
+            "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
+            "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7"
+        }
+    },
+    "Filtros": {
+        "General": {
+            "tabla": {},
+            "objeto": {},
+            "kpi": {},
+            "variable": {},
+            "dimension": {
+                "Region": "UuHAmf",
+                "Division": "jjCJen",
+                "Distrito": "vXynJe",
+                "Zona": "KrqEVKj",
+                "Bloque": "mycaFR",
+                "Campaña": "RqaxJ",
+                "Año": "jwPWz"
+            }
+        }
+    },
+    "Ventas": {
+        "General": {
+            "tabla": {
+                "Ventas": "ZdZmXd",
+                "Pedidos": "MgJVbj",
+                "AVO": "YjtD",
+                "Actividad": "RdFDBdh"
+            },
+            "objeto": {
+                "Tendencia de Venta": "AyYctY",
+                "Venta por Division": "pehuNS",
+                "Real": "FrrspzW",
+                "%Variacion vs Plan": "FjbTuY",
+                "%Variacion vs Camapaña Anterior": "JpnHFh",
+                "%Variacion Año Anterior": "jPGcp",
+                "Boton Distrito y Division": "fueFTt",
+                "Grafica Real Actividad con porcentaje": "LNKCRkC",
+                "Mapa Plan": "qjCcK",
+                "Mapa %": "fmYgz",
+                "Tendencia de Venta Actividad": "eFBEvX"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
+    "FuerzaVentas": {
+        "General": {
+            "tabla": {
+                "Stencil": "eVETJN",
+                "Contratos": "aRZpNm",
+                "Reingresos": "gpTWmG",
+                "Bajas": "jy",
+                "Cordinadoras Indicadores": "BKGsYpp"
+            },
+            "objeto": {
+                "Tendencia de Reingresos y Bajas": "JaFmpyr",
+                "Stencil": "eMpypgg",
+                "Cordinadoras": "Vqbj",
+                "Contratos": "VpfE",
+                "Variacion vs Plan": "QvtEFuW",
+                "%Variacion vs Camapaña Anterior": "dBCARF",
+                "% variacion vs Año Anterior": "acj",
+                "Boton Distrito y Division": "UZjJPhE"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
+    "FiltrosMovimientos": {
+        "General": {
+            "tabla": {},
+            "objeto": {},
+            "kpi": {},
+            "variable": {},
+            "dimension": {
+                "Año": "vJPVpn",
+                "Mes": "ZaVzjz",
+                "Dia": "nfjQDW",
+                "Fecha": "agRy"
+            }
+        }
+    },
+    "Variables": {
+        "General": {
+            "tabla": {},
+            "objeto": {},
+            "kpi": {},
+            "variable": {
+                "vIndicadorVentas": "Funcionalidad con las card te Ventas y Pedidos(1 Ventas, 2 Pedidos,3 AVO, 4 Actividad)",
+                "vMaxBloque": "Variable para obtener el bloque maximo del año",
+                "Filtro Distrito": "fueFTf",
+                "vCampanaMax": "Variable para obtener la campaña mas reciente",
+                "vIndicadorMapa": "1-Venta      2-Plan       3-%",
+                "vAnioMaxMov": "Año maximo para movimientos bancarios",
+                "vVariableFiltroMovimientos": "1 - Filtros Activos Movimientos Bancarios, 0 - Filtros no Activos"
+            },
+            "dimension": {}
+        }
+    },
+    "Titulos": {
+        "General": {
+            "tabla": {},
+            "objeto": {
+                "Tendencia": "YwzkPG",
+                "Division": "LkZKJ",
+                "Ranking": "TmVJTXB"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
+    "PyC": {
+        "General": {
+            "tabla": {
+                "Cancelaciones": "AJJwGFQ",
+                "Notas de Credito": "pgdmB",
+                "Adeudo": "YeJ",
+                "Cuenta Mala": "jueKY"
+            },
+            "objeto": {
+                "Tendencia de Cancelaciones": "LmPzTw",
+                "Tendencia de Notas de Credito": "ZnPYsTr",
+                "Ranking de Cancelaciones": "WZawPY",
+                "Ranking Notas de Credito": "DGGmm",
+                "Ranking de Adeudo": "GMpemk",
+                "Ranking de Cuenta Mala": "kKpPr",
+                "Boton Distrito y Division": "PRAEx",
+                "Boton Cancelaciones Adeudos Notas": "rJSChhB",
+                "Boton $ y % Cancelaciones Notas": "RpAMgdg",
+                "Boton $ y % Adeudo Cta Mala": "ACQUsxU",
+                "Titulo de Cancelaciones": "nzJHP",
+                "Titutlo de Notas de Credito": "PJXpMJ",
+                "Titulo Rankign de Cancelaciones": "ZBtG",
+                "Titulos Ranking Notas de Credito": "URgYzRy",
+                "Ranking de Cancelaciones %": "UVPVZXL",
+                "Ranking Notas de Credito %": "FSFsVDV",
+                "Ranking de Adeudo %": "RxvmuH",
+                "Ranking de Cuenta Mala %": "jQSEL"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
+    "movimientosBancarios": {
+        "General": {
+            "tabla": {
+                "Depositos": "gNMvb",
+                "Movimientos": "gUvVYKS",
+                "Promedio de Movimientos": "NRuyyMx"
+            },
+            "objeto": {
+                "Tendencia de Depositos": "dUeYj",
+                "Depositos por Division": "RGPpkLA",
+                "Detalle de Movimientos": "PvZZSa",
+                "Filtro Region Division etc": "QtxnD"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
+    "ReporteDinamico": {
+        "General": {
+            "tabla": {
+                "Tabla": "jqemxk"
+            },
+            "objeto": {
+                "Lista": "ZJUQUAd",
+                "Dimensiones": "gqqwdR",
+                "Metricas": "sSKxjj"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
+    "Reporte": {
+        "General": {
+            "tabla": {
+                "Tabla": "ARjber"
+            },
+            "objeto": {},
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    }
+}

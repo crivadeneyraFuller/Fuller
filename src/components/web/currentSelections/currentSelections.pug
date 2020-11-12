@@ -1,0 +1,8 @@
+h3 Selecciones Actuales
+
+.filters_list
+  .filter_item.d-flex( ng-repeat = 'item in selecciones.selections' )
+    span {{item.fieldName}}: {{item.qSelected}}
+    span.lui-button__icon.lui-icon.lui-icon--close( ng-click = '$ctrl.clearSelections( item.fieldName )' )
+
+button.btn.p-1( ng-click = '$ctrl.clearAll()' ng-if = '$ctrl.clearAll' ) Limpiar filtros

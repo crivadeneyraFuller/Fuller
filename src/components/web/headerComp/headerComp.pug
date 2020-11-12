@@ -1,0 +1,53 @@
+header.header.w-100.position-fixed.header-nav
+  get-object.w-100( obj-id='CurrentSelections' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+  nav.navbar.navbar-expand-lg.d-flex.align-items-center.justify-content-end
+    a.navbar-brand.mr-auto(href="#/")
+      img.header__logo( src='../../../assets/img/logo.svg' )
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      span.lui-icon.lui-icon--menu
+    a.d-block.d-sm-none.navbar-brand.btn-filter.flex-nowrap.bg-transparent.border-0( data-target='#exampleModal' data-toggle='modal' type='button' ng-click="$ctrl.showFilter()" )
+      img.filterIcon.shadow( src='../../../assets/icons/icon-filter.svg' )
+    div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end
+      ul.navbar-nav
+        li.nav-item.active.py-4.py-md-0.px-4
+          a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/'}" href="#/") Ventas
+        li.nav-item.py-4.py-md-0.px-4
+          a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/fuerzaVentas'}" href="#/fuerzaVentas") Fuerza de Ventas
+        li.nav-item.py-4.py-md-0.px-4
+          a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/pyc'}" href="#/pyc") Postventa y Cobranza
+        li.nav-item.py-4.py-md-0.px-4
+          a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/movimientosBancarios'}" href="#/movimientosBancarios") Movimientos Bancarios
+        li.nav-item.py-4.py-md-0.px-4.d-none.d-sm-block
+          a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/reporteDinamico'}" href="#/reporteDinamico") Reporte Dinámico
+        li.nav-item.py-4.py-md-0.px-4.d-none.d-sm-block
+          a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/otrosReportesSeleccion' || $ctrl.ventana == '#/otrosReportes'}" href="#/otrosReportesSeleccion") Otros Reportes
+    a.d-none.d-sm-block.navbar-brand.btn-filter.flex-nowrap.bg-transparent.border-0( data-target='#exampleModal' data-toggle='modal' type='button' ng-click="$ctrl.showFilter()" )
+      img.filterIcon.shadow( src='../../../assets/icons/icon-filter.svg' )
+
+#exampleModal.modal.fade( role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true' ng-if='$ctrl.modalFiltro' )
+  .modal-dialog.modal-dialog-centered( role='document' )
+    .modal-content.border-0.modalMob.shadow.mt-filter
+      .modal-header.d-flex.align-items-center.justify-content-center.modalmt-xs
+        h5#exampleModalLabel.modal-title.is-font-weight--bold.is-h5 Selección de Filtro
+        button.d-flex.align-items-center.justify-content-center.close.modal__close.p-2.rounded-circle.bg-white.is-shadow.mr-0( type='button' data-dismiss='modal' aria-label='Close' ng-click="$ctrl.showFilter()" )
+          span( aria-hidden='true' )
+            img.img-fluid( src='../../../assets/icons/icon-cross--gray.svg' )
+      .modal-body 
+        .row
+          .col
+            get-object.d-block( obj-id='{{ $ctrl.region }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.division }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.distrito }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.zona }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+          .col( ng-class="{'d-none':$ctrl.ventana == '#/movimientosBancarios'}" )
+            get-object.d-block( obj-id='{{ $ctrl.bloque }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.campana }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.anio }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+          .col.d-none( ng-class="{'d-block':$ctrl.ventana == '#/movimientosBancarios'}" )
+            get-object.d-block( obj-id='{{ $ctrl.movAnio }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.movMes }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.movDia }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.movFecha }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+            get-object.d-block( obj-id='{{ $ctrl.anio }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+          .col.d-none( ng-class="{'d-block':$ctrl.ventana == '#/reporteDinamico'}" )
+            get-object.d-block( obj-id='{{ $ctrl.movAnio }}' height='36px' width='100%' app='FullerApp_v1' num-obj='2' options='false')

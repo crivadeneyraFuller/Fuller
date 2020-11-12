@@ -1,0 +1,5 @@
+.dropdown
+  button#dropdownMenuButton.btn.btn-primary-outline.border-white.text-white.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+    | {{ $ctrl.text }}
+  .dropdown-menu(aria-labelledby='dropdownMenuButton')
+    a.dropdown-item( href='{{$ctrl.url[key]}}' ng-repeat = '(key, list) in $ctrl.data' ) {{ list }}

@@ -1,0 +1,26 @@
+header-comp
+ 
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover5
+  .row.pt-sm-3.pt-md-4.flex-wrap
+    .col-12
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Reporte Dinámico
+
+.container-fluid.pb-4.dashboard-page.mt-0.mt-md-n5
+  .row.mb-md-3.pb-md-3.header__cards
+    .col-12.mb-3
+      .card
+        .mb-2
+          .d-flex.justify-content-start.align-items-center
+            span.is-font-weight--bold.is-h5.mr-3 Selecciona un reporte:
+            get-object.w-25.d-block( obj-id='{{ $ctrl.btnLista }}' height='46px' app='FullerApp_v1' num-obj='1' options='false')
+            button.ml-auto.btn.btn-primary.bg-white.border-0.px-3( ng-click="$ctrl.exportDataExcel('jqemxk')" )
+              span.pr-3.txt-light Exportar
+              img( src='../../../assets/icons/icon-excel.svg' )
+          .row.mt-3
+            .col-3
+              h5.is-font-weight--bold.is-h5 Dimensiones
+              get-object.w-100.d-block( obj-id='{{ $ctrl.Dimensiones }}' height='350px' app='FullerApp_v1' num-obj='1' options='false')
+              h5.is-font-weight--bold.is-h5.mt-3 Métricas
+              get-object.w-100.d-block( obj-id='{{ $ctrl.Metricas }}' height='350px' app='FullerApp_v1' num-obj='1' options='false')
+            .col-9.mt-3
+              get-object.w-100( obj-id='{{ $ctrl.Tabla }}' height='700px' app='FullerApp_v1' num-obj='1' options='false')

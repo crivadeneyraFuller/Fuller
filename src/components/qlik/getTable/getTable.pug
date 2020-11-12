@@ -1,0 +1,17 @@
+.card.m-0
+	.card__content.d-flex.p-5
+		.card__object.w-100
+			h2.card__title.font-weight-bold.mb-5 {{table.title}}
+			.table__container( ng-mouseout='$ctrl.mouseOver()', ng-mouseover='$ctrl.mouseOut()')
+				table.table.fixed_header(style='width: 100%;')
+					thead.table__head
+						tr.table__row(ng-if='!$ctrl.load')
+							th(ng-repeat='value in table.header') 
+								| {{value}}
+					tbody.table__body.overflow-auto
+						tr.table__row(ng-if='$ctrl.load')
+							td.spinner-border.text-secondary(role='status')
+									span.sr-only Loading...
+						tr.table__row(ng-if='!$ctrl.load',ng-repeat='(key, value) in table.data[0].qMatrix')
+							td(ng-repeat='data in value') 
+								| {{data.qText}}

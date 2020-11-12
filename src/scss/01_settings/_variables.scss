@@ -1,0 +1,41 @@
+// Colors
+:root {
+  --c-white: #fff;
+  --c-black: #000;
+  --c-blue--base: #03B2C6;
+  --c-blue--strong:#00B5C7;
+  --c-purpule--base: #A22190;
+  --c-purpule--light: #ECD2E9;
+  --c-pink--base: #E7717D;
+  --c-pink--light: #FAE2E5;
+  --c-pink--strong: #B03E63;
+  --c-gray--light: #F6F5F4;
+  --c-gray--base:#808080;
+  --c-gray--strong:#6C757D;
+  --c-green--strong: #BED69A;
+  --c-pink--hard:#ED2664;
+  --c-blue--hard:#4477aa;
+  --c-blue--gray:#d6dbdf;
+  
+  --c-green--base: #78D9A9;
+  --c-red--base: #F35757;
+  --c-orange--base: rgb(251,192,45);
+  
+  --shadow--color: #00000029;
+  --shadow--size: 0 3px 6px;
+}
+
+// Fonts
+$font: (
+  family: ('Poppins', sans-serif),
+  size: 16px,
+);
+
+// Breakpoints
+$mobile-width: 300px;
+$tablet-width: 769px;
+$desktop-width: 992px;
+$television-width: 1200px;
+
+// Paths
+$path-image: 'assets/images';

@@ -1,0 +1,23 @@
+.buttons(ng-if="arrow")
+  button.button.right(ng-if='(state < limit)', ng-click='next()')
+    span.right
+  button.button.left(ng-if='(state > 0)', ng-click='previous()')
+    span.left
+//- carosuel normal
+.carousel(ng-if="!touch")
+  .content(ng-style="{\
+  'width': (items * 100) + '%',\
+  'margin-left': (state > 0) ? (state * -100) + '%' : 0\
+  }", ng-transclude='')
+  .dot-content.mt-3(ng-if="dot")
+    .dots
+      span.dot(ng-click="changeDot($index)" ng-class="{ 'dot--active':state==$index }", ng-repeat='item in children')
+//- Carousel Touche W/ hammer
+.carousel(ng-if="touch" hm-swipeleft="next()" hm-swiperight="previous()")
+  .content(ng-style="{\
+  'width': (items * 100) + '%',\
+  'margin-left': (state > 0) ? (state * -100) + '%' : 0\
+  }", ng-transclude='')
+  .dot-content(ng-if="dot")
+    .dots
+      span.dot(ng-click="changeDot($index)" ng-class="{ 'dot--active':state==$index }", ng-repeat='item in children')

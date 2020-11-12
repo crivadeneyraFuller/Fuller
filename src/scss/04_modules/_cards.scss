@@ -1,0 +1,84 @@
+html, body {
+  overflow-x: hidden;
+}
+.card {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: rem(15px);
+  box-shadow: var(--shadow--color) var(--shadow--size);
+  overflow: hidden;
+  color:var(--c-gray--strong);
+  border: 3px solid #fff;
+  min-height: 175px;
+  &--active {
+    border: 3px solid #03B2C6;
+  }
+
+  &__header {
+    border-bottom: 2px solid var(--c-pink--light);
+    color:var(--c-gray--base);
+
+    &--inactive {
+      color: var(--c-gray--base);
+    }
+  }
+  &__content {
+    border-bottom: 2px solid var(--c-purpule--light);
+    color:var(--c-gray--base);
+    padding-bottom: 7px;
+    }
+}
+.dropDwon {
+  select {
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+}
+.main-title {
+  border-bottom: 3px solid #B03E63;
+  display: inline-block;
+  text-shadow: 0px 3px 6px #00000029;
+  width: 400px;
+  @include smartphone {
+    width: 100%;
+  }
+}
+.filterIcon {
+  width: 30px;
+  border-radius: 50%;
+}
+.text-dark {
+  color: #000000 !important;
+}
+
+.qv-tooltip {
+  max-width: 450px;
+}
+.cardReporte {
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 0.9375rem;
+  box-shadow: var(--shadow--color) var(--shadow--size);
+  color: #fff;
+  background: #B03E63;
+  width: 300px;
+}
+.title-cardReporte {
+  font-size: 25px;
+}
+.icon-cardReporte {
+  width: 55px;
+  height: auto;
+  margin-right: 20px;
+}
+.logoRegresar {
+  width: 40px;
+  height: auto;
+}
+.btn-filtrosGasto {
+  color: var(--c-gray--strong);
+}
+.dropdownSelect {
+  height: 270px;
+  overflow-y: scroll;
+}
