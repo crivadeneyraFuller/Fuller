@@ -8,8 +8,11 @@
 function Service($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('')
   $routeProvider
-    .when('/', {
+    /*.when('/', {
       template: '<dashboard-comp></dashboard-comp>'
+    })*/
+    .when('/', {
+      template: '<otrosReportesSeleccion-comp></otrosReportesSeleccion-comp>'
     })
     .when('/fuerzaVentas', {
       template: '<fuerzaVentas-comp></fuerzaVentas-comp>'
