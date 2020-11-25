@@ -4,7 +4,7 @@ function Controller(appData, $scope, $rootScope, openApp, qlik) {
   ctrl.$onInit = function () {
     ctrl.openApp = openApp[ ctrl.app || appData.appNameOtros ];
     ctrl.mobile = ($(window).width() < 767) ? true : false;
-    
+    ctrl.catalogoDirectoras = appData.Reporte.General.tabla.CatalogoDirectoras
     ctrl.tablaReportes = appData.Reporte.General.tabla.Tabla
   }
   ctrl.showFilter = () => {

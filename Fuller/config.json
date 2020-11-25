@@ -1,15 +1,19 @@
 {
     "appName": "FullerApp_v1",
     "appNameOtros": "FullerApp_Reporte_v2",
+    "appCatalogo": "Catalogo_Directoras",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
-            "FullerApp_Reporte_v2": "FullerApp_Reporte_v2.qvf"
+            "FullerApp_Reporte_v2": "FullerApp_Reporte_v2.qvf",
+            "Catalogo_Directoras": "Catalogo_Directoras.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
-            "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7"
+            "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7",
+            "Catalogo_Directoras": "b1263d1a-f45e-45db-acc7-8b7a688059b5"
         }
+
     },
     "Filtros": {
         "General": {
@@ -191,12 +195,29 @@
     "Reporte": {
         "General": {
             "tabla": {
-                "Tabla": "ARjber"
+                "Tabla": "ARjber",
+                "CatalogoDirectoras": "jPwzQCU"
             },
             "objeto": {},
             "kpi": {},
             "variable": {},
             "dimension": {}
         }
+    },
+    "CatalogoDirectorasComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "jPwzQCU"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
     }
 }

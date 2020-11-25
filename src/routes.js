@@ -29,6 +29,9 @@ function Service($routeProvider, $locationProvider) {
     .when('/otrosReportesSeleccion', {
       template: '<otrosReportesSeleccion-comp></otrosReportesSeleccion-comp>'
     })
+    .when('/catalogoDirectoras', {
+      template: '<catalogoDirectoras-comp></catalogoDirectoras-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })

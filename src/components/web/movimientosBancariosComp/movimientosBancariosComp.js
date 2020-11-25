@@ -12,6 +12,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
     ctrl.tendencia = appData.movimientosBancarios.General.objeto['Tendencia de Depositos']
     ctrl.depositos = appData.movimientosBancarios.General.objeto['Depositos por Division']
     ctrl.detalle = appData.movimientosBancarios.General.objeto['Detalle de Movimientos']
+    
   }
   ctrl.exportDataExcel = (idQlik) => {
     openApp['FullerApp_v1'].getObject(idQlik).then(function (vizModel) {

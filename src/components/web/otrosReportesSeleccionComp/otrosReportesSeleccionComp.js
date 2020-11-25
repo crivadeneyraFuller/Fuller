@@ -10,6 +10,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
     ctrl.Dimensiones = appData.ReporteDinamico.General.objeto.Dimensiones
     ctrl.Metricas = appData.ReporteDinamico.General.objeto.Metricas
     ctrl.Tabla = appData.ReporteDinamico.General.tabla.Tabla
+
   }
   ctrl.exportDataExcel = (idQlik) => {
     openApp['FullerApp_v1'].getObject(idQlik).then(function (vizModel) {
