@@ -80,11 +80,6 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
-        // si estas en ReporteDinamico y rediriges a otro te da la seleccion default
-        else if (curr && curr.$$route && curr.$$route.originalPath == '/catalogoDirectoras' && next && next.$$route && next.$$route.originalPath != '/catalogoDirectoras') {
-          ctrl.openApp.clearAll();
-          ctrl.setCurrentYearBlock();
-        }
       }
       // Cuando se refresca en la misma pagina
       else {
@@ -99,10 +94,6 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
         }
         // cuando refrescas sobre Otros Reportes se limpian
         else if (next && next.$$route && next.$$route.originalPath  == '/otrosReportes' ) {
-          ctrl.openApp.clearAll();
-        }
-        // cuando refrescas sobre Otros Reportes se limpian
-        else if (next && next.$$route && next.$$route.originalPath  == '/catalogoDirectoras' ) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian

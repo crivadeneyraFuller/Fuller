@@ -74,7 +74,8 @@ th {
   color: #494949 !important;
 }
 .btn-filter {
-  padding-left: 25px;
+  padding: 0px 25px;
+  margin-right: 0px;
   border-left: 2px solid var(--c-blue--base) !important;
   @include smartphone {
     padding-left: 10px;

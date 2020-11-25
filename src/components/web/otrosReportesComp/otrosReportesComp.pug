@@ -14,7 +14,7 @@ header-comp
                 button#dropdownMenuButton.btn.btn-filtrosGasto.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
                   span(ng-if="$ctrl.vComparativoAnio2==0") Año Inicial
                   span(ng-if="$ctrl.vComparativoAnio2!==0") {{ $ctrl.vComparativoAnio2 }}
-                .dropdownSelect.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                .dropdown-menu(aria-labelledby='dropdownMenuButton')
                   .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2018')") 2018
                   .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2019')") 2019
                   .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio2','2020')") 2020
@@ -55,7 +55,7 @@ header-comp
                 button#dropdownMenuButton.btn.btn-filtrosGasto.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
                   span(ng-if="$ctrl.vComparativoAnio1==0") Año Final
                   span(ng-if="$ctrl.vComparativoAnio1!==0") {{ $ctrl.vComparativoAnio1 }}
-                .dropdownSelect.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                .dropdown-menu(aria-labelledby='dropdownMenuButton')
                   .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2018')") 2018
                   .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2019')") 2019
                   .dropdown-item.is-cursor(ng-click="$ctrl.setVariable('vComparativoAnio1','2020')") 2020
@@ -100,4 +100,4 @@ header-comp
                 img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
           .row.mt-3
             .col-12.mt-3
-              get-object.w-100( obj-id='{{ $ctrl.catalogoDirectoras }}' height='700px' app='FullerApp_Reporte_v2' num-obj='1' options='false')
+              get-object.w-100( obj-id='{{ $ctrl.tablaReportes }}' height='700px' app='FullerApp_Reporte_v2' num-obj='1' options='false')

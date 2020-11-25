@@ -7,6 +7,8 @@ header.header.w-100.position-fixed.header-nav
       span.lui-icon.lui-icon--menu
     a.d-block.d-sm-none.navbar-brand.btn-filter.flex-nowrap.bg-transparent.border-0( data-target='#exampleModal' data-toggle='modal' type='button' ng-click="$ctrl.showFilter()" )
       img.filterIcon.shadow( src='../../../assets/icons/icon-filter.svg' )
+    a.d-block.d-sm-none.navbar-brand.btn-filter.flex-nowrap.bg-transparent.border-0( href="https://portal-bi.fuller.com.mx:9090/#/" )
+      span.txt-light.is-h6 SALIR
     div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end
       ul.navbar-nav
         li.nav-item.active.py-4.py-md-0.px-4
@@ -23,6 +25,8 @@ header.header.w-100.position-fixed.header-nav
           a.header-link( ng-class="{'header-link-active':$ctrl.ventana == '#/otrosReportesSeleccion' || $ctrl.ventana == '#/otrosReportes'}" href="#/otrosReportesSeleccion") Otros Reportes
     a.d-none.d-sm-block.navbar-brand.btn-filter.flex-nowrap.bg-transparent.border-0( data-target='#exampleModal' data-toggle='modal' type='button' ng-click="$ctrl.showFilter()" )
       img.filterIcon.shadow( src='../../../assets/icons/icon-filter.svg' )
+    a.d-none.d-sm-block.navbar-brand.btn-filter.flex-nowrap.bg-transparent.border-0( href="https://portal-bi.fuller.com.mx:9090/#/" )
+      span.txt-light.is-h6 SALIR
 
 #exampleModal.modal.fade( role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true' ng-if='$ctrl.modalFiltro' )
   .modal-dialog.modal-dialog-centered( role='document' )
