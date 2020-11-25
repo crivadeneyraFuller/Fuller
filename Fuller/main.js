@@ -131,6 +131,39 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/assets/icons/icon-catalago-coordinadoras.png":
+/*!**********************************************************!*\
+  !*** ./src/assets/icons/icon-catalago-coordinadoras.png ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-catalago-coordinadoras.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-catalago-coordinadoras.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/icon-catalogo-directoras.png":
+/*!*******************************************************!*\
+  !*** ./src/assets/icons/icon-catalogo-directoras.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-catalogo-directoras.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-catalogo-directoras.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/icon-catalogo-gerentes.png":
+/*!*****************************************************!*\
+  !*** ./src/assets/icons/icon-catalogo-gerentes.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-catalogo-gerentes.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-catalogo-gerentes.png?");
+
+/***/ }),
+
 /***/ "./src/assets/icons/icon-cross--gray.svg":
 /*!***********************************************!*\
   !*** ./src/assets/icons/icon-cross--gray.svg ***!
@@ -164,14 +197,25 @@ eval("module.exports = __webpack_require__.p + \"img/icon-filter.svg\";\n\n//# s
 
 /***/ }),
 
-/***/ "./src/assets/icons/icon-plan-ventas.svg":
-/*!***********************************************!*\
-  !*** ./src/assets/icons/icon-plan-ventas.svg ***!
-  \***********************************************/
+/***/ "./src/assets/icons/icon-fulleretes-activas.png":
+/*!******************************************************!*\
+  !*** ./src/assets/icons/icon-fulleretes-activas.png ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/icon-plan-ventas.svg\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-plan-ventas.svg?");
+eval("module.exports = __webpack_require__.p + \"img/icon-fulleretes-activas.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-fulleretes-activas.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/icon-fulletes-bajas.png":
+/*!**************************************************!*\
+  !*** ./src/assets/icons/icon-fulletes-bajas.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-fulletes-bajas.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-fulletes-bajas.png?");
 
 /***/ }),
 
@@ -585,7 +629,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _otr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = \"<header-comp></header-comp><div class=\\\"header__cover position-relative container-fluid d-flex align-content-center d-sm-block py-4 py-sm-0 cover2\\\"><div class=\\\"row pt-sm-3 pt-md-4 flex-wrap\\\"><div class=\\\"col-12\\\"><span class=\\\"is-h3 is-font-weight--normal text-pinkDark ml-2 pr-5 main-title\\\">Reportes</span></div></div></div><div class=\\\"container-fluid pb-4 dashboard-page mt-0 mt-md-n5\\\"><div class=\\\"row mb-md-3 pb-md-3 header__cards\\\"><div class=\\\"col-12 mb-3\\\"><div class=\\\"card\\\" style=\\\"height:100vh;\\\"><div class=\\\"mb-2\\\"><div class=\\\"d-flex justify-content-between align-items-center\\\"><span class=\\\"is-font-weight--bold is-h5 mb-3\\\">Haga una selección</span><a class=\\\"mb-3\\\" href=\\\"https://portal-bi.fuller.com.mx:9090/#/bienvenido\\\"><img class=\\\"logoRegresar\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-regresar.svg */ \"./src/assets/icons/icon-regresar.svg\") + \"\\\"/></a></div><a class=\\\"mt-3\\\" href=\\\"#/otrosReportes\\\"><div class=\\\"cardReporte d-flex justify-content-center align-items-center\\\"><img class=\\\"icon-cardReporte\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-plan-ventas.svg */ \"./src/assets/icons/icon-plan-ventas.svg\") + \"\\\"/><span class=\\\"m-0 title-cardReporte\\\">Plan de Ventas</span></div></a></div></div></div></div></div>\";\n\n//# sourceURL=webpack:///./src/components/web/otrosreportesseleccionComp/otrosReportesSeleccionComp.pug?");
+eval("module.exports = \"<header-comp></header-comp><div class=\\\"header__cover position-relative container-fluid d-flex align-content-center d-sm-block py-4 py-sm-0 cover2\\\"><div class=\\\"row pt-sm-3 pt-md-4 flex-wrap\\\"><div class=\\\"col-12\\\"><span class=\\\"is-h3 is-font-weight--normal text-pinkDark ml-2 pr-5 main-title\\\">Reportes</span></div></div></div><div class=\\\"container-fluid pb-4 dashboard-page mt-0 mt-md-n5\\\"><div class=\\\"row mb-md-3 pb-md-3 header__cards\\\"><div class=\\\"col-12 mb-3\\\"><div class=\\\"card\\\" style=\\\"height:100vh;\\\"><div class=\\\"mb-2\\\"><div class=\\\"d-flex justify-content-between align-items-center\\\"><span class=\\\"is-font-weight--bold is-h5 mb-3\\\">Haga una selección</span><a class=\\\"mb-3\\\" href=\\\"https://portal-bi.fuller.com.mx:9090/#/bienvenido\\\"><img class=\\\"logoRegresar\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-regresar.svg */ \"./src/assets/icons/icon-regresar.svg\") + \"\\\"/></a></div><div class=\\\"container-sm\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalogo-directoras.png */ \"./src/assets/icons/icon-catalogo-directoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-1\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalogo-gerentes.png */ \"./src/assets/icons/icon-catalogo-gerentes.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalago-coordinadoras.png */ \"./src/assets/icons/icon-catalago-coordinadoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-fulleretes-activas.png */ \"./src/assets/icons/icon-fulleretes-activas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-fulletes-bajas.png */ \"./src/assets/icons/icon-fulletes-bajas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div></div></div></div></div></div></div></div>\";\n\n//# sourceURL=webpack:///./src/components/web/otrosreportesseleccionComp/otrosReportesSeleccionComp.pug?");
 
 /***/ }),
 
