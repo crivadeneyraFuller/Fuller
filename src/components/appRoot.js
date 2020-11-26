@@ -105,7 +105,19 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/planeacionVentasDistrito' && next && next.$$route && next.$$route.originalPath != '/planeacionVentasDistrito') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
         else if (curr && curr.$$route && curr.$$route.originalPath == '/detalleContratosCampana' && next && next.$$route && next.$$route.originalPath != '/detalleContratosCampana') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/prestige' && next && next.$$route && next.$$route.originalPath != '/prestige') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/puntoQuiebre' && next && next.$$route && next.$$route.originalPath != '/puntoQuiebre') {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
@@ -150,7 +162,19 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/planeacionVentasDistrito' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
         else if (next && next.$$route && next.$$route.originalPath  == '/detalleContratosCampana' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/prestige' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/puntoQuiebre' ) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian

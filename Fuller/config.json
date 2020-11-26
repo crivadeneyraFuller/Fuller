@@ -7,7 +7,10 @@
     "appFullerretesActivasZonas": "FullerettesActivas_Zonas",
     "appFullerretesBajas": "FullerettesBajas",
     "appPlaneacionVentas": "Planeacion_Ventas",
+    "appPlaneacionVentasDistrito": "Planeacion_Ventas_Distrito",
     "appDetalleContratosCampana": "Detalle_Contatos_Campana", 
+    "appPrestige": "Prestige",
+    "appPuntoQuiebre": "Punto_Quiebre",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -18,7 +21,10 @@
             "FullerettesActivas_Zonas": "FullerettesActivas_Zonas.qvf",
             "FullerettesBajas": "FullerettesBajas.qvf",
             "PlaneacionVentas": "Planeacion_Ventas.qvf",
-            "DetalleContratosCampana": "Detalle_Contatos_Campana.qvf"
+            "PlaneacionVentasDistrito": "Planeacion_Ventas_Distrito.qvf",
+            "DetalleContratosCampana": "Detalle_Contatos_Campana.qvf",
+            "Prestige":"Prestige.qvf",
+            "PuntoQuiebre": "Punto_Quiebre.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -29,7 +35,10 @@
             "FullerettesActivas_Zonas": "fdeb9a7f-2ee2-4f00-86cc-f307ebc73aa3",      
             "FullerettesBajas": "6a25acff-0274-4274-95b2-75f715ab0713",
             "PlaneacionVentas": "f90c878f-1eff-407f-b565-598a2496e78b",
-            "DetalleContratosCampana": "40ef6d94-fb4d-4002-96ac-daa14c29b02f"
+            "PlaneacionVentasDistrito": "8aeb9664-938d-476e-afe2-69ef5416bafd",
+            "DetalleContratosCampana": "40ef6d94-fb4d-4002-96ac-daa14c29b02f",
+            "Prestige": "722f8f23-d1db-40be-a4e1-16f4353f867a",
+            "PuntoQuiebre": "565dda36-b485-499a-bea2-975caad2ac30"
         }
 
     },
@@ -320,10 +329,59 @@
         }
 
     },
+    "PlaneacionVentasDistritoComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "a0ebf25e-d61e-41ff-9736-d61831d88839",
+                "Tabla2": "aJRwJs"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
     "DetalleContratosCampanaComp":{
         "General": {
             "tabla": {
                 "Tabla": "rmHXJT"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "PrestigeComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "b5885ed9-7736-482c-abee-d85cbdc73688"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "PuntoQuiebreComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "7f582b89-b4fc-44f1-8cb7-5557d97a3118"
             },
             "objeto": {
                 "Lista": "",

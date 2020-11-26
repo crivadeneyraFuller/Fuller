@@ -1,17 +1,17 @@
-import pug from './detalleContratosCampanaComp.pug'
+import pug from './prestigeComp.pug'
 
 function Controller(appData, $scope, $rootScope, openApp) {
     const ctrl = this
   
     ctrl.$onInit = function () {
-      ctrl.openApp = openApp[ctrl.app || appData.appDetalleContratosCampana];
+      ctrl.openApp = openApp[ctrl.app || appData.appPrestige];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
-      ctrl.Tabla = appData.DetalleContratosCampanaComp.General.tabla.Tabla
+      ctrl.Tabla = appData.PrestigeComp.General.tabla.Tabla
   
     }
 
     ctrl.exportDataExcel = (idQlik) => {
-      openApp['DetalleContratosCampana'].getObject(idQlik).then(function (vizModel) {
+      openApp['Prestige'].getObject(idQlik).then(function (vizModel) {
         vizModel.exportData().then(function (reply) {
           var link = document.createElement("a");
           link.href = reply.qUrl;
@@ -23,9 +23,9 @@ function Controller(appData, $scope, $rootScope, openApp) {
     };
   }
   
-  const detallecontratoscampanaComp = {
+  const prestigeComp = {
     template: pug,
     controller: ['appData', '$scope', '$rootScope', 'openApp', Controller]
   }
   
-  export default detallecontratoscampanaComp
+  export default prestigeComp

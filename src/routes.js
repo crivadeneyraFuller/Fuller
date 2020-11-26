@@ -48,8 +48,17 @@ function Service($routeProvider, $locationProvider) {
     .when('/planeacionVentas', {
       template: '<planeacionVentas-comp></planeacionVentas-comp>'
     })
+    .when('/planeacionVentasDistrito', {
+      template: '<planeacionVentasDistrito-comp></planeacionVentasDistrito-comp>'
+    })
     .when('/detalleContratosCampana', {
       template: '<detalleContratosCampana-comp></detalleContratosCampana-comp>'
+    })
+    .when('/prestige', {
+      template: '<prestige-comp></prestige-comp>'
+    })
+    .when('/puntoQuiebre', {
+      template: '<puntoQuiebre-comp></puntoQuiebre-comp>'
     })
     .otherwise({
       redirectTo: '/'
