@@ -1,14 +1,17 @@
 {
     "appName": "FullerApp_v1",
     "appNameOtros": "FullerApp_Reporte_v2",
+    "appCatalogoDirectoras": "CATALOGO_DIRECTORAS",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
-            "FullerApp_Reporte_v2": "FullerApp_Reporte_v2.qvf"
+            "FullerApp_Reporte_v2": "FullerApp_Reporte_v2.qvf",
+            "Catalago_Directoras": "CATALOGO_DIRECTORAS.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
-            "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7"
+            "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7",
+            "Catalago_Directoras": "283a82cc-dd92-40d7-b11a-25d7f5ffc360"
         }
     },
     "Filtros": {
@@ -198,5 +201,17 @@
             "variable": {},
             "dimension": {}
         }
+    },
+    "Reporte_Catalogo_Directoras": {
+        "General": {
+            "tabla": {
+                "Tabla": "jPwzQCU"
+            },
+            "objeto": {},
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
     }
+    
 }

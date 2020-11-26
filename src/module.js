@@ -23,6 +23,7 @@ import otrosreportesComp from './components/web/otrosreportesComp/otrosreportesC
 import headerComp from './components/web/headerComp/headerComp'
 import headerreportesComp from './components/web/headerreportesComp/headerreportesComp'
 import getTableKpis from './components/qlik/getTableKpis/getTableKpis'
+import catalogodirectorasComp from './components/web/catalogoDirectorasComp/catalogoDirectorasComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -51,6 +52,9 @@ const appModule = (qlik, responseJson) => (
   .component('headerComp', headerComp)
   .component('headerreportesComp', headerreportesComp)
   .component('getTableKpis', getTableKpis)
+
+  .component('catalogodirectorasComp', catalogodirectorasComp)
+
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )
