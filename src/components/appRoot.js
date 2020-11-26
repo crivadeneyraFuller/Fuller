@@ -93,6 +93,10 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/FulleretteActivasZonas' && next && next.$$route && next.$$route.originalPath != '/FulleretteActivasZonas') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
       }
       // Cuando se refresca en la misma pagina
       else {
@@ -119,6 +123,10 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
         }
         // cuando refrescas sobre Otros Reportes se limpian
         else if (next && next.$$route && next.$$route.originalPath  == '/catalogoCoordinadores' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/FulleretteActivasZonas' ) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian

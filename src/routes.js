@@ -39,6 +39,9 @@ function Service($routeProvider, $locationProvider) {
     .when('/catalogoCoordinadores', {
       template: '<catalogoCoordinadores-comp></catalogoCoordinadores-comp>'
     })
+    .when('/FulleretteActivasZonas', {
+      template: '<FulleretteActivasZonas-comp></FulleretteActivasZonas-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })
