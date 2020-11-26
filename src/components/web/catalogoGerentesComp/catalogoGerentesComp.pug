@@ -1,0 +1,22 @@
+header-comp
+
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2
+  .row.pt-sm-3.pt-md-4.flex-wrap
+    .col-12
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Reportes
+
+
+.container-fluid.pb-4.dashboard-page
+  .row.mb-md-3.pb-md-3
+    .col-12.mt-3
+      .card
+        .card__content.mb-2
+          .d-flex.align-items-center.justify-content-between.mt-3
+            span.is-font-weight--bold.is-h5 Detalle
+            button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('LbCLmf')" )
+              span.pr-3.txt-light Exportar
+              img( src='../../../assets/icons/icon-excel.svg' )
+        .row.ml-1
+          get-object( obj-id='LbCLmf' height='300px' style="width: 100%;" app='Catalogo_Gerentes' num-obj='1' options='false')
+        
+
