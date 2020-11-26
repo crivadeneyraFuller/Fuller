@@ -8,11 +8,8 @@
 function Service($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('')
   $routeProvider
-    /*.when('/', {
-      template: '<dashboard-comp></dashboard-comp>'
-    })*/
     .when('/', {
-      template: '<otrosReportesSeleccion-comp></otrosReportesSeleccion-comp>'
+      template: '<dashboard-comp></dashboard-comp>'
     })
     .when('/fuerzaVentas', {
       template: '<fuerzaVentas-comp></fuerzaVentas-comp>'
@@ -31,7 +28,7 @@ function Service($routeProvider, $locationProvider) {
     })
     .when('/otrosReportesSeleccion', {
       template: '<otrosReportesSeleccion-comp></otrosReportesSeleccion-comp>'
-    })   
+    })
     .when('/catalogoDirectoras', {
       template: '<catalogoDirectoras-comp></catalogoDirectoras-comp>'
     })

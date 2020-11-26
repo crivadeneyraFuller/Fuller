@@ -52,9 +52,7 @@ const appModule = (qlik, responseJson) => (
   .component('headerComp', headerComp)
   .component('headerreportesComp', headerreportesComp)
   .component('getTableKpis', getTableKpis)
-
   .component('catalogodirectorasComp', catalogodirectorasComp)
-
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )
