@@ -28,6 +28,8 @@ import catalogogerentesComp from './components/web/catalogoGerentesComp/catalogo
 import catalogocoordinadoresComp from './components/web/catalogoCoordinadoresComp/catalogoCoordinadoresComp'
 import fullerettesactivaszonasComp from './components/web/fullerettesActivasZonasComp/fullerettesActivasZonasComp'
 import fullerettesbajasComp from './components/web/fullerettesBajasComp/fullerettesBajasComp'
+import planeacionventasComp from './components/web/planeacionVentasComp/planeacionVentasComp'
+import detallecontratoscampanaComp from './components/web/detalleContratosCampanaComp/detalleContratosCampanaComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -61,6 +63,8 @@ const appModule = (qlik, responseJson) => (
   .component('catalogocoordinadoresComp', catalogocoordinadoresComp)
   .component('fullerettesactivaszonasComp', fullerettesactivaszonasComp)
   .component('fullerettesbajasComp', fullerettesbajasComp)
+  .component('planeacionventasComp', planeacionventasComp)
+  .component('detallecontratoscampanaComp', detallecontratoscampanaComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )

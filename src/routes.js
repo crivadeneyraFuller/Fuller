@@ -45,6 +45,12 @@ function Service($routeProvider, $locationProvider) {
     .when('/fullerettesBajas', {
       template: '<fullerettesBajas-comp></fullerettesBajas-comp>'
     })
+    .when('/planeacionVentas', {
+      template: '<planeacionVentas-comp></planeacionVentas-comp>'
+    })
+    .when('/detalleContratosCampana', {
+      template: '<detalleContratosCampana-comp></detalleContratosCampana-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })

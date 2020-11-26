@@ -6,6 +6,8 @@
     "appCatalogoCoordinadores": "Catalogo_Coordinadores",
     "appFullerretesActivasZonas": "FullerettesActivas_Zonas",
     "appFullerretesBajas": "FullerettesBajas",
+    "appPlaneacionVentas": "Planeacion_Ventas",
+    "appDetalleContratosCampana": "Detalle_Contatos_Campana", 
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -14,7 +16,9 @@
             "Catalogo_Gerentes": "Catalogo_Gerentes.qvf",
             "Catalogo_Coordinadores": "Catalogo_Coordinadores.qvf",
             "FullerettesActivas_Zonas": "FullerettesActivas_Zonas.qvf",
-            "FullerettesBajas": "FullerettesBajas.qvf"
+            "FullerettesBajas": "FullerettesBajas.qvf",
+            "PlaneacionVentas": "Planeacion_Ventas.qvf",
+            "DetalleContratosCampana": "Detalle_Contatos_Campana.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -23,7 +27,9 @@
             "Catalogo_Gerentes": "d8c78ed6-25d6-4d04-8383-49e10596bc87",
             "Catalogo_Coordinadores": "720ca46d-9e53-4c42-91f7-94e4361c9017",         
             "FullerettesActivas_Zonas": "fdeb9a7f-2ee2-4f00-86cc-f307ebc73aa3",      
-            "FullerettesBajas": "6a25acff-0274-4274-95b2-75f715ab0713"
+            "FullerettesBajas": "6a25acff-0274-4274-95b2-75f715ab0713",
+            "PlaneacionVentas": "f90c878f-1eff-407f-b565-598a2496e78b",
+            "DetalleContratosCampana": "40ef6d94-fb4d-4002-96ac-daa14c29b02f"
         }
 
     },
@@ -280,11 +286,44 @@
         }
 
     },
-    
     "FullerettesBajasComp":{
         "General": {
             "tabla": {
                 "Tabla": "mVntqA"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "PlaneacionVentasComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "KmgBS",
+                "Tabla2": "a0ebf25e-d61e-41ff-9736-d61831d88839",
+                "Tabla3": "aJRwJs"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "DetalleContratosCampanaComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "rmHXJT"
             },
             "objeto": {
                 "Lista": "",
