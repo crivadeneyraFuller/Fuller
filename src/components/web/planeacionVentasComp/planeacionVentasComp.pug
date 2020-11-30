@@ -15,9 +15,12 @@ header-comp
             span.is-font-weight--bold.is-h5 Detalle 
             button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('KmgBS')" )
               span.pr-3.txt-light Exportar
-              img( src='../../../assets/icons/icon-excel.svg' )
-        .row.ml-1
-          get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='1' options='false')
+              img( src='../../../assets/icons/icon-excel.svg' )              
+            a.mb-3( href="#/otrosReportesSeleccion")
+              img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+        .row.ml-1        
+          get-object( obj-id='{{ $ctrl.Filtro }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='1' options='false')
+          get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='2' options='false')
 
 
     .col-12.mt-3
@@ -29,7 +32,8 @@ header-comp
               span.pr-3.txt-light Exportar
               img( src='../../../assets/icons/icon-excel.svg' )
         .row.ml-1
-          get-object( obj-id='{{ $ctrl.Tabla2 }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='1' options='false')
+          get-object( obj-id='{{ $ctrl.Filtro2 }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='3' options='false')
+          get-object( obj-id='{{ $ctrl.Tabla2 }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='4' options='false')
 
 
     .col-12.mt-3
@@ -41,6 +45,7 @@ header-comp
               span.pr-3.txt-light Exportar
               img( src='../../../assets/icons/icon-excel.svg' )
         .row.ml-1
-          get-object( obj-id='{{ $ctrl.Tabla3 }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='1' options='false')
+          get-object( obj-id='{{ $ctrl.Filtro3 }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='5' options='false')
+          get-object( obj-id='{{ $ctrl.Tabla3 }}' height='300px' style="width: 100%;" app='PlaneacionVentas' num-obj='6' options='false')
         
 

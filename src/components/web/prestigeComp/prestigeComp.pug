@@ -15,7 +15,9 @@ header-comp
             span.is-font-weight--bold.is-h5 Detalle 
             button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('f65b3c2f-33e9-402d-821f-1cb0c05d451d')" )
               span.pr-3.txt-light Exportar
-              img( src='../../../assets/icons/icon-excel.svg' )
+              img( src='../../../assets/icons/icon-excel.svg' )             
+            a.mb-3( href="#/otrosReportesSeleccion")
+              img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
         .row.ml-1
           get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='Prestige' num-obj='1' options='false')
 

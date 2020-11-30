@@ -318,6 +318,13 @@
                 "Tabla2": "a0ebf25e-d61e-41ff-9736-d61831d88839",
                 "Tabla3": "aJRwJs"
             },
+            "filtros":{
+
+                "Filtro": "UttXcNH",
+                "Filtro2": "139f9d71-9bcb-4a6c-9efc-a652744c9c3e",
+                "Filtro3": "604e72bf-6015-46e4-a176-950f1172925a"
+
+            },
             "objeto": {
                 "Lista": "",
                 "Dimensiones": "",
@@ -351,12 +358,23 @@
             "tabla": {
                 "Tabla": "rmHXJT"
             },
+            "filtro":
+            {
+                "Filtro":"WvVtH",
+                "Filtro2":"QjFEJmG",
+                "Filtro3":"Hpbmpa",
+                "Filtro4":"cpj",
+                "Filtro5":"cpj"
+            },
             "objeto": {
                 "Lista": "",
                 "Dimensiones": "",
                 "Metricas": ""
             },
-            "kpi": {},
+            "kpi": {
+
+                "KPI":"VpQDEn"
+            },
             "variable": {},
             "dimension": {}
         }

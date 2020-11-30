@@ -7,6 +7,12 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.openApp = openApp[ctrl.app || appData.appDetalleContratosCampana];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
       ctrl.Tabla = appData.DetalleContratosCampanaComp.General.tabla.Tabla
+      ctrl.Filtro = appData.DetalleContratosCampanaComp.General.filtro.Filtro
+      ctrl.Filtro2 = appData.DetalleContratosCampanaComp.General.filtro.Filtro2
+      ctrl.Filtro3 = appData.DetalleContratosCampanaComp.General.filtro.Filtro3
+      ctrl.Filtro4 = appData.DetalleContratosCampanaComp.General.filtro.Filtro4
+      ctrl.Filtro5 = appData.DetalleContratosCampanaComp.General.filtro.Filtro5
+      ctrl.KPI = appData.DetalleContratosCampanaComp.General.kpi.KPI
   
     }
 

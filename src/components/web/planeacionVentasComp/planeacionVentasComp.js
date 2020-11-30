@@ -9,6 +9,9 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Tabla = appData.PlaneacionVentasComp.General.tabla.Tabla
       ctrl.Tabla2 = appData.PlaneacionVentasComp.General.tabla.Tabla2
       ctrl.Tabla3 = appData.PlaneacionVentasComp.General.tabla.Tabla3
+      ctrl.Filtro = appData.PlaneacionVentasComp.General.filtros.Filtro
+      ctrl.Filtro2 = appData.PlaneacionVentasComp.General.filtros.Filtro2
+      ctrl.Filtro3 = appData.PlaneacionVentasComp.General.filtros.Filtro3
   
     }
 
