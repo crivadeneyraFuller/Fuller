@@ -12,6 +12,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Filtro = appData.PlaneacionVentasComp.General.filtros.Filtro
       ctrl.Filtro2 = appData.PlaneacionVentasComp.General.filtros.Filtro2
       ctrl.Filtro3 = appData.PlaneacionVentasComp.General.filtros.Filtro3
+      console.log(ctrl.Filtro)
   
     }
 
