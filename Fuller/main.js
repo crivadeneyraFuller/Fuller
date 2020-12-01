@@ -131,6 +131,39 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/assets/icons/icon-bono-stellar-directoras.png":
+/*!***********************************************************!*\
+  !*** ./src/assets/icons/icon-bono-stellar-directoras.png ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-bono-stellar-directoras.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-bono-stellar-directoras.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/icon-bono-stellar.png":
+/*!************************************************!*\
+  !*** ./src/assets/icons/icon-bono-stellar.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-bono-stellar.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-bono-stellar.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/icon-bono-ventas.png":
+/*!***********************************************!*\
+  !*** ./src/assets/icons/icon-bono-ventas.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-bono-ventas.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-bono-ventas.png?");
+
+/***/ }),
+
 /***/ "./src/assets/icons/icon-catalago-coordinadoras.png":
 /*!**********************************************************!*\
   !*** ./src/assets/icons/icon-catalago-coordinadoras.png ***!
@@ -252,6 +285,17 @@ eval("module.exports = __webpack_require__.p + \"img/icon-planeacion-ventas.png\
 
 /***/ }),
 
+/***/ "./src/assets/icons/icon-ranking-venta.png":
+/*!*************************************************!*\
+  !*** ./src/assets/icons/icon-ranking-venta.png ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-ranking-venta.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-ranking-venta.png?");
+
+/***/ }),
+
 /***/ "./src/assets/icons/icon-regresar.svg":
 /*!********************************************!*\
   !*** ./src/assets/icons/icon-regresar.svg ***!
@@ -271,6 +315,17 @@ eval("module.exports = __webpack_require__.p + \"img/icon-regresar.svg\";\n\n//#
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/icon-seguimientos-contratos.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-seguimientos-contratos.png?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/icon-vales-gasolina.png":
+/*!**************************************************!*\
+  !*** ./src/assets/icons/icon-vales-gasolina.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/icon-vales-gasolina.png\";\n\n//# sourceURL=webpack:///./src/assets/icons/icon-vales-gasolina.png?");
 
 /***/ }),
 
@@ -811,7 +866,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _otr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = \"<header-comp></header-comp><div class=\\\"header__cover position-relative container-fluid d-flex align-content-center d-sm-block py-4 py-sm-0 cover2\\\"><div class=\\\"row pt-sm-3 pt-md-4 flex-wrap\\\"><div class=\\\"col-12\\\"><span class=\\\"is-h3 is-font-weight--normal text-pinkDark ml-2 pr-5 main-title\\\">Reportes</span></div></div></div><div class=\\\"container-fluid pb-4 dashboard-page mt-0 mt-md-n5\\\"><div class=\\\"row mb-md-3 pb-md-3 header__cards\\\"><div class=\\\"col-12 mb-3\\\"><div class=\\\"card\\\" style=\\\"height:100vh;\\\"><div class=\\\"mb-2\\\"><div class=\\\"d-flex justify-content-between align-items-center\\\"><span class=\\\"is-font-weight--bold is-h5 mb-3\\\">Haga una selección</span><a class=\\\"mb-3\\\" href=\\\"https://portal-bi.fuller.com.mx:9090/#/bienvenido\\\"><img class=\\\"logoRegresar\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-regresar.svg */ \"./src/assets/icons/icon-regresar.svg\") + \"\\\"/></a></div><div class=\\\"container-sm\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalogo-directoras.png */ \"./src/assets/icons/icon-catalogo-directoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-1\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoGerentes\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalogo-gerentes.png */ \"./src/assets/icons/icon-catalogo-gerentes.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoCoordinadores\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalago-coordinadoras.png */ \"./src/assets/icons/icon-catalago-coordinadoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/fullerettesActivasZonas\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-fulleretes-activas.png */ \"./src/assets/icons/icon-fulleretes-activas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/fullerettesBajas\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-fulletes-bajas.png */ \"./src/assets/icons/icon-fulletes-bajas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/planeacionVentas\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-planeacion-ventas.png */ \"./src/assets/icons/icon-planeacion-ventas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/planeacionVentasDistrito\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-planeacion-ventas-distrito.png */ \"./src/assets/icons/icon-planeacion-ventas-distrito.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/detalleContratosCampana\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-seguimientos-contratos.png */ \"./src/assets/icons/icon-seguimientos-contratos.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-historia-prestige.png */ \"./src/assets/icons/icon-historia-prestige.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div></div></div></div></div></div></div></div>\";\n\n//# sourceURL=webpack:///./src/components/web/otrosreportesseleccionComp/otrosReportesSeleccionComp.pug?");
+eval("module.exports = \"<header-comp></header-comp><div class=\\\"header__cover position-relative container-fluid d-flex align-content-center d-sm-block py-4 py-sm-0 cover2\\\"><div class=\\\"row pt-sm-3 pt-md-4 flex-wrap\\\"><div class=\\\"col-12\\\"><span class=\\\"is-h3 is-font-weight--normal text-pinkDark ml-2 pr-5 main-title\\\">Reportes</span></div></div></div><div class=\\\"container-fluid pb-4 dashboard-page mt-0 mt-md-n5\\\"><div class=\\\"row mb-md-3 pb-md-3 header__cards\\\"><div class=\\\"col-12 mb-3\\\"><div class=\\\"card\\\" style=\\\"height:100vh;\\\"><div class=\\\"mb-2\\\"><div class=\\\"d-flex justify-content-between align-items-center\\\"><span class=\\\"is-font-weight--bold is-h5 mb-3\\\">Haga una selección</span><a class=\\\"mb-3\\\" href=\\\"https://portal-bi.fuller.com.mx:9090/#/bienvenido\\\"><img class=\\\"logoRegresar\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-regresar.svg */ \"./src/assets/icons/icon-regresar.svg\") + \"\\\"/></a></div><div class=\\\"container-sm\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoDirectoras\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalogo-directoras.png */ \"./src/assets/icons/icon-catalogo-directoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-1\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoGerentes\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalogo-gerentes.png */ \"./src/assets/icons/icon-catalogo-gerentes.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/catalogoCoordinadores\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-catalago-coordinadoras.png */ \"./src/assets/icons/icon-catalago-coordinadoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/fullerettesActivasZonas\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-fulleretes-activas.png */ \"./src/assets/icons/icon-fulleretes-activas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/fullerettesBajas\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-fulletes-bajas.png */ \"./src/assets/icons/icon-fulletes-bajas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/planeacionVentas\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-planeacion-ventas.png */ \"./src/assets/icons/icon-planeacion-ventas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/planeacionVentasDistrito\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-planeacion-ventas-distrito.png */ \"./src/assets/icons/icon-planeacion-ventas-distrito.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/detalleContratosCampana\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-seguimientos-contratos.png */ \"./src/assets/icons/icon-seguimientos-contratos.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-historia-prestige.png */ \"./src/assets/icons/icon-historia-prestige.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-ranking-venta.png */ \"./src/assets/icons/icon-ranking-venta.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-ranking-venta.png */ \"./src/assets/icons/icon-ranking-venta.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-vales-gasolina.png */ \"./src/assets/icons/icon-vales-gasolina.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-bono-stellar.png */ \"./src/assets/icons/icon-bono-stellar.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-bono-stellar-directoras.png */ \"./src/assets/icons/icon-bono-stellar-directoras.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-bono-ventas.png */ \"./src/assets/icons/icon-bono-ventas.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div><div class=\\\"col-lg-4 col-md-4 col-sm-12\\\"><a class=\\\"mt-3\\\" href=\\\"#/prestige\\\"><div class=\\\"container\\\" style=\\\"text-align:center\\\"> <img class=\\\"img-rounded\\\" src=\\\"\" + __webpack_require__(/*! ../../../assets/icons/icon-seguimientos-contratos.png */ \"./src/assets/icons/icon-seguimientos-contratos.png\") + \"\\\" style=\\\"width:100%\\\"/></div></a></div></div></div></div></div></div></div></div>\";\n\n//# sourceURL=webpack:///./src/components/web/otrosreportesseleccionComp/otrosReportesSeleccionComp.pug?");
 
 /***/ }),
 
