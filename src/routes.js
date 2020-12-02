@@ -60,6 +60,18 @@ function Service($routeProvider, $locationProvider) {
     .when('/puntoQuiebre', {
       template: '<puntoQuiebre-comp></puntoQuiebre-comp>'
     })
+    .when('/valesGasolina', {
+      template: '<valesGasolina-comp></valesGasolina-comp>'
+    })
+    .when('/stellargerentes', {
+      template: '<stellarGerentes-comp></stellarGerentes-comp>'
+    })
+    .when('/stellardirectoras', {
+      template: '<stellarDirectoras-comp></stellarDirectoras-comp>'
+    })
+    .when('/bonoscaminoexito', {
+      template: '<bonosCaminoExito-comp></bonosCaminoExito-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })

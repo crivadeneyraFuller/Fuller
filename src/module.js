@@ -33,6 +33,10 @@ import planeacionventasdistritoComp from './components/web/planeacionVentasDistr
 import detallecontratoscampanaComp from './components/web/detalleContratosCampanaComp/detalleContratosCampanaComp'
 import prestigeComp from './components/web/prestigeComp/prestigeComp'
 import puntoquiebreComp from './components/web/puntoQuiebreComp/puntoQuiebreComp'
+import valesgasolinaComp from './components/web/valesGasolinaComp/valesGasolinaComp'
+import stellargerentesComp from './components/web/stellarGerentesComp/stellasGerentesComp'
+import stellardirectorasComp from './components/web/stellarDirectorasComp/stellasDierctorasComp'
+import bonoscaminoexitoComp from './components/web/bonosCaminoExitoComp/bonosCaminoExitoComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -71,6 +75,10 @@ const appModule = (qlik, responseJson) => (
   .component('detallecontratoscampanaComp', detallecontratoscampanaComp)
   .component('prestigeComp', prestigeComp)
   .component('puntoquiebreComp', puntoquiebreComp)
+  .component('valesgasolinaComp', valesgasolinaComp)
+  .component('stellargerentesComp', stellargerentesComp)
+  .component('stellardirectorasComp', stellardirectorasComp)
+  .component('bonoscaminoexitoComp', bonoscaminoexitoComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )

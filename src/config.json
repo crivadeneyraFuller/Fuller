@@ -11,6 +11,10 @@
     "appDetalleContratosCampana": "Detalle_Contatos_Campana", 
     "appPrestige": "Prestige",
     "appPuntoQuiebre": "Punto_Quiebre",
+    "appValesGasolina": "Vales_Gasolina",
+    "appStellarGerentes": "Stellar_Gerentes",
+    "appStellarDirectoras": "Stellar",
+    "appBonoCaminoExito": "Bonos_Camino_Exito",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -24,7 +28,11 @@
             "PlaneacionVentasDistrito": "Planeacion_Ventas_Distrito.qvf",
             "DetalleContratosCampana": "Detalle_Contatos_Campana.qvf",
             "Prestige":"Prestige.qvf",
-            "PuntoQuiebre": "Punto_Quiebre.qvf"
+            "PuntoQuiebre": "Punto_Quiebre.qvf",
+            "ValesGasolina": "Vales_Gasolina.qvf",
+            "StellarGerentes": "Stellar_Gerentes.qvf",
+            "StellarDirectoras": "Stellar.qvf",
+            "BonoCaminoExito": "Bonos_Camino_Exito.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -38,7 +46,11 @@
             "PlaneacionVentasDistrito": "8aeb9664-938d-476e-afe2-69ef5416bafd",
             "DetalleContratosCampana": "40ef6d94-fb4d-4002-96ac-daa14c29b02f",
             "Prestige": "722f8f23-d1db-40be-a4e1-16f4353f867a",
-            "PuntoQuiebre": "565dda36-b485-499a-bea2-975caad2ac30"
+            "PuntoQuiebre": "565dda36-b485-499a-bea2-975caad2ac30",
+            "ValesGasolina": "e01d2fbd-e3bd-4341-8db4-df41f9440fdd",
+            "StellarGerentes": "2a0a5f39-910d-4b62-82b2-72f7d897ff8e",
+            "StellarDirectoras": "f579b294-a5e0-4f01-adc0-b5ee8c1e1259",
+            "BonoCaminoExito": "cde8629b-34a0-42e2-b85e-646bcb1a162f"
         }
 
     },
@@ -405,6 +417,107 @@
                 "Lista": "",
                 "Dimensiones": "",
                 "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "ValesGasolinaComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "058d199a-aa36-475c-9c23-1414561aa78a"
+            },
+            "filtro":{
+                "Filtro": "6c3af630-5af0-445d-9a60-d783cfc35e80"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "StellarGerentesComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "XwxtG"
+            },
+            "filtro":{
+                "Filtro": ""
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "StellarDirectorasComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "XwxtG"
+            },
+            "filtro":{
+                "Filtro": ""
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "BonoCaminoExitoComp":{
+
+        "General": {
+            "tabla": {
+                "TablaVenta": "1a79f55b-43cd-442c-81f8-c77784d25e24",
+                "TablaPedido": "ca956496-8970-4a3a-b7d9-0e23b3b47ac0"
+            },
+            "filtrosVentas":{
+                "Filtro": "tGNCqa",
+                "Filtro2": "KPayBVG",
+                "Filtro3": "BunTUct",
+                "Filtro4": "xVjxRh",
+                "Filtro5": "JmPjj"
+            },
+            "filstrosPedido":{
+                "Filtro": "rZxs",
+                "Filtro2": "eNdevZE",
+                "Filtro3": "ajknJw",
+                "Filtro4": "mhyru",
+                "Filtro5": "fgKUt"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "graficosVenta":{
+
+                "Grafico": "fMHDRf"
+
+            },
+            "graficosPedido":{
+
+                "Grafico":"BSAKrP"
             },
             "kpi": {},
             "variable": {},
