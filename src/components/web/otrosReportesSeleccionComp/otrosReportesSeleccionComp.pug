@@ -6,123 +6,163 @@ header-comp
       span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Reportes
 
 .container-fluid.pb-4.dashboard-page.mt-0.mt-md-n5
-  .row.mb-md-3.pb-md-3.header__cards
-    .col-12.mb-3
-      .card(style="height:100vh;")
+  .row.mb-md-3.pb-md-3.header__cards    
+
+    .col-lg-6.col-sm-12
+     .card(style="auto")
+      .mb-2
+       .d-flex.justify-content-between.align-items-center
+         span.is-font-weight--bold.is-h5.mb-3 Haga una selección
+         a.mb-3( href="https://portal-bi.fuller.com.mx:9090/#/bienvenido")
+          img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+            //- a.mb-3( href="https://portal-bi.fuller.com.mx:9090/?proxyRestUri=https%3a%2f%2fmex3ntas22.global.company.domain%3a4243%2fqps%2f&targetId=bbc28838-7729-4957-b9fe-07a8d0c28e28#/")
+       .container-sm 
+        .jumbotron( style="text-align:center" )
+         
+          button.btn.btn-info( type="button" data-toggle="collapse" data-target="#IndicadoresNegocios" style ="background-color:#FDE8F1; color: #B03E63; border-color: #FDE8F1" ) Indicadores de Negocios
+          div( style="height:20px" )
+          div.collapse( id="IndicadoresNegocios") 
+          
+           .row 
+            .col-lg-4.col-md-4.col-sm-12
+             a.mt-3( href="#/indicadoresdivision")
+              .container(style="text-align:center") 
+               img.img-rounded( src='../../../assets/icons/icon-indicadores-division.png' style = "width:100%" )
+
+            .col-lg-4.col-md-4.col-sm-12
+             a.mt-3( href="#/indicadoresdistrito")
+              .container(style="text-align:center") 
+               img.img-rounded( src='../../../assets/icons/icon-indicadores-distrito.png' style = "width:100%" )
+
+               
+            .col-lg-4.col-md-4.col-sm-12
+             a.mt-3( href="#/indicadoreszonas")
+              .container(style="text-align:center") 
+               img.img-rounded( src='../../../assets/icons/icon-indicadores-zonas.png' style = "width:100%" )
+
+               
+               
+                
+    .col-lg-6.col-sm-12
+     .card(style="auto;")
         .mb-2
           .d-flex.justify-content-between.align-items-center
             span.is-font-weight--bold.is-h5.mb-3 Haga una selección
             a.mb-3( href="https://portal-bi.fuller.com.mx:9090/#/bienvenido")
               img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
             //- a.mb-3( href="https://portal-bi.fuller.com.mx:9090/?proxyRestUri=https%3a%2f%2fmex3ntas22.global.company.domain%3a4243%2fqps%2f&targetId=bbc28838-7729-4957-b9fe-07a8d0c28e28#/")
-              
-          .container-sm
-           .row
+          .container-sm 
+           .jumbotron( style="text-align:center" )
+         
+            button.btn.btn-info( type="button" data-toggle="collapse" data-target="#OtrosReportes"  style ="background-color:#FDE8F1; color: #B03E63; border-color: #FDE8F1" ) Otros Reportes
+            div( style="height:20px" )
+            div.collapse( id="OtrosReportes")               
+          
+             .row
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/catalogoDirectoras")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-catalogo-directoras.png' style = "width:100%" )
+               a.mt-3( href="#/catalogoDirectoras")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-catalogo-directoras.png' style = "width:100%" )
 
-            .col-lg-4.col-md-4.col-sm-1
+              .col-lg-4.col-md-4.col-sm-1
 
-             a.mt-3( href="#/catalogoGerentes")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-catalogo-gerentes.png' style = "width:100%" )
+               a.mt-3( href="#/catalogoGerentes")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-catalogo-gerentes.png' style = "width:100%" )
             
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/catalogoCoordinadores")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-catalago-coordinadoras.png' style = "width:100%" )
+               a.mt-3( href="#/catalogoCoordinadores")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-catalago-coordinadoras.png' style = "width:100%" )
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/fullerettesActivasZonas")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-fulleretes-activas.png' style = "width:100%" )
+               a.mt-3( href="#/fullerettesActivasZonas")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-fulleretes-activas.png' style = "width:100%" )
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/fullerettesBajas")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-fulletes-bajas.png' style = "width:100%" )
+               a.mt-3( href="#/fullerettesBajas")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-fulletes-bajas.png' style = "width:100%" )
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/planeacionVentas")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-planeacion-ventas.png' style = "width:100%" )
+               a.mt-3( href="#/planeacionVentas")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-planeacion-ventas.png' style = "width:100%" )
                 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/planeacionVentasDistrito")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-planeacion-ventas-distrito.png' style = "width:100%" )
+               a.mt-3( href="#/planeacionVentasDistrito")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-planeacion-ventas-distrito.png' style = "width:100%" )
+                              
+              .col-lg-4.col-md-4.col-sm-12
+
+               a.mt-3( href="#/detalleContratosCampana")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-seguimientos-contratos.png' style = "width:100%" )
                 
+              .col-lg-4.col-md-4.col-sm-12
 
-            .col-lg-4.col-md-4.col-sm-12
+               a.mt-3( href="#/prestige")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-historia-prestige.png' style = "width:100%" )
 
-             a.mt-3( href="#/detalleContratosCampana")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-seguimientos-contratos.png' style = "width:100%" )
-                
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/prestige")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-historia-prestige.png' style = "width:100%" )
-
-            .col-lg-4.col-md-4.col-sm-12
-
-             a.mt-3( href="#/prestige")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-ranking-venta_distrito.png' style = "width:100%" )
+               a.mt-3( href="#/prestige")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-ranking-venta_distrito.png' style = "width:100%" )
 
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/prestige")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-ranking-venta_division.png' style = "width:100%" )
-                
-
-            .col-lg-4.col-md-4.col-sm-12
-
-             a.mt-3( href="#/valesGasolina")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-vales-gasolina.png' style = "width:100%" )
+               a.mt-3( href="#/prestige")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-ranking-venta_division.png' style = "width:100%" )
                 
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/stellargerentes")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-bono-stellar-gerentas.png' style = "width:100%" )
+               a.mt-3( href="#/valesGasolina")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-vales-gasolina.png' style = "width:100%" )
                 
 
-            .col-lg-4.col-md-4.col-sm-12
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/stellardirectoras")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-bono-stellar-directoras.png' style = "width:100%" )
+               a.mt-3( href="#/stellargerentes")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-bono-stellar-gerentas.png' style = "width:100%" )
                 
-                
-            .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/bonoscaminoexito")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-bono-ventas.png' style = "width:100%" )
+              .col-lg-4.col-md-4.col-sm-12
 
-            .col-lg-4.col-md-4.col-sm-12
+               a.mt-3( href="#/stellardirectoras")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-bono-stellar-directoras.png' style = "width:100%" )
+                
+                
+              .col-lg-4.col-md-4.col-sm-12
 
-             a.mt-3( href="#/prestige")
-               .container(style="text-align:center") 
-                img.img-rounded( src='../../../assets/icons/icon-seguimientos-contratos.png' style = "width:100%" )
+               a.mt-3( href="#/bonoscaminoexito")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-bono-ventas.png' style = "width:100%" )
+
+              .col-lg-4.col-md-4.col-sm-12
+ 
+               a.mt-3( href="#/prestige")
+                .container(style="text-align:center") 
+                 img.img-rounded( src='../../../assets/icons/icon-seguimientos-contratos.png' style = "width:100%" )
                 
-                
-                
+
+          
 
 
 

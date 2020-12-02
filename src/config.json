@@ -15,6 +15,9 @@
     "appStellarGerentes": "Stellar_Gerentes",
     "appStellarDirectoras": "Stellar",
     "appBonoCaminoExito": "Bonos_Camino_Exito",
+    "appIndicadoresDistrito": "Distrito",
+    "appIndicadoresDivision": "Division",
+    "appIndicadoresZonas": "Zonas",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -32,7 +35,10 @@
             "ValesGasolina": "Vales_Gasolina.qvf",
             "StellarGerentes": "Stellar_Gerentes.qvf",
             "StellarDirectoras": "Stellar.qvf",
-            "BonoCaminoExito": "Bonos_Camino_Exito.qvf"
+            "BonoCaminoExito": "Bonos_Camino_Exito.qvf",
+            "Distrito": "Distrito.qvf",
+            "Division": "Division.qvf",
+            "Zonas": "Zonas.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -50,7 +56,10 @@
             "ValesGasolina": "e01d2fbd-e3bd-4341-8db4-df41f9440fdd",
             "StellarGerentes": "2a0a5f39-910d-4b62-82b2-72f7d897ff8e",
             "StellarDirectoras": "f579b294-a5e0-4f01-adc0-b5ee8c1e1259",
-            "BonoCaminoExito": "cde8629b-34a0-42e2-b85e-646bcb1a162f"
+            "BonoCaminoExito": "cde8629b-34a0-42e2-b85e-646bcb1a162f",
+            "Distrito": "0ca6ebba-0c39-4960-aaa8-c8c7fcdb7b43",
+            "Division": "66193ee5-af84-4e53-92dd-28d7e3daa602",
+            "Zonas": "91f1fc1d-9e52-4096-bd94-64e8cc4d5df5"
         }
 
     },
@@ -518,6 +527,79 @@
             "graficosPedido":{
 
                 "Grafico":"BSAKrP"
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "DivisionComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "QpuBJpF"
+            },
+            "filtros":{
+                "Filtro": "LBmgnTH",
+                "Filtro2": "ZtL",
+                "Filtro3": "njppgu",
+                "Filtro4": "dkcsZRX"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "DistritoComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "ajQtTf"
+            },
+            "filtros":{
+                "Filtro": "hRRBRY",
+                "Filtro2": "vUAwkJ",
+                "Filtro3": "hDQbSHn",
+                "Filtro4": "ydnGx",
+                "Filtro5": "ZWMCYP"
+                
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "ZonasComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "3c242d35-c2ed-4168-b8d2-24b59a72510c"
+            },
+            "filtros":{
+                "Filtro": "MumDHY",
+                "Filtro2": "GhduWqE",
+                "Filtro3": "VPXheP",
+                "Filtro4": "kJQwvrG",
+                "Filtro5": "nCVfZEX"
+                
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
             },
             "kpi": {},
             "variable": {},

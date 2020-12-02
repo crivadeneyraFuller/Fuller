@@ -37,6 +37,9 @@ import valesgasolinaComp from './components/web/valesGasolinaComp/valesGasolinaC
 import stellargerentesComp from './components/web/stellarGerentesComp/stellasGerentesComp'
 import stellardirectorasComp from './components/web/stellarDirectorasComp/stellasDierctorasComp'
 import bonoscaminoexitoComp from './components/web/bonosCaminoExitoComp/bonosCaminoExitoComp'
+import indicadoresdistritoComp from './components/web/indicadoresDistritoComp/indicadoresDistritoComp'
+import indicadoresdivisionComp from './components/web/indicadoresDivisionComp/indicadoresDivisionComp'
+import indicadoreszonasComp from './components/web/indicadoresZonasComp/indicadoresZonasComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -79,6 +82,9 @@ const appModule = (qlik, responseJson) => (
   .component('stellargerentesComp', stellargerentesComp)
   .component('stellardirectorasComp', stellardirectorasComp)
   .component('bonoscaminoexitoComp', bonoscaminoexitoComp)
+  .component('indicadoresdistritoComp', indicadoresdistritoComp)
+  .component('indicadoresdivisionComp', indicadoresdivisionComp)
+  .component('indicadoreszonasComp', indicadoreszonasComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )

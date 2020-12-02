@@ -129,11 +129,23 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
-        else if (curr && curr.$$route && curr.$$route.originalPath == '/stellargerentes' && next && next.$$route && next.$$route.originalPath != '/stellargerentes') {
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/stellardirectoras' && next && next.$$route && next.$$route.originalPath != '/stellardirectoras') {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
         else if (curr && curr.$$route && curr.$$route.originalPath == '/bonoscaminoexito' && next && next.$$route && next.$$route.originalPath != '/bonoscaminoexito') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/indicadoresdistrito' && next && next.$$route && next.$$route.originalPath != '/indicadoresdistrito') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/indicadoresdivision' && next && next.$$route && next.$$route.originalPath != '/indicadoresdivision') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/indicadoreszonas' && next && next.$$route && next.$$route.originalPath != '/indicadoreszonas') {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
@@ -207,6 +219,18 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
         }
         // cuando refrescas sobre Otros Reportes se limpian
         else if (next && next.$$route && next.$$route.originalPath  == '/bonoscaminoexito' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/indicadoresdistrito' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/indicadoresdivision' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/indicadoreszonas' ) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian

@@ -72,6 +72,15 @@ function Service($routeProvider, $locationProvider) {
     .when('/bonoscaminoexito', {
       template: '<bonosCaminoExito-comp></bonosCaminoExito-comp>'
     })
+    .when('/indicadoresdistrito', {
+      template: '<indicadoresDistrito-comp></bonosCaminoExito-comp>'
+    })
+    .when('/indicadoresdivision', {
+      template: '<indicadoresDivision-comp></bonosCaminoExito-comp>'
+    })
+    .when('/indicadoreszonas', {
+      template: '<indicadoresZonas-comp></bonosCaminoExito-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })
