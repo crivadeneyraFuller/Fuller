@@ -3,6 +3,11 @@ import pug from './bonosCaminoExitoComp.pug'
 function Controller(appData, $scope, $rootScope, openApp) {
     const ctrl = this
   
+    $scope.SectionVenta = true
+    $scope.SectionPedido = false
+    $("#BtnVentas").css("background-color" , "#FDE8F1")
+    $("#BtnPedidos").css("background-color" , "#F7F7F7")
+
     ctrl.$onInit = function () {
       ctrl.openApp = openApp[ctrl.app || appData.appBonoCaminoExito];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
@@ -34,6 +39,25 @@ function Controller(appData, $scope, $rootScope, openApp) {
         });
       });
     };
+
+    ctrl.ClickTblVenta = function () {
+
+      $scope.SectionVenta = true
+      $scope.SectionPedido = false
+      $("#BtnVentas").css("background-color" , "#FDE8F1")
+      $("#BtnPedidos").css("background-color" , "#F7F7F7")
+
+    };
+
+    ctrl.ClickTblPedido = function () {
+
+      $scope.SectionVenta = false
+      $scope.SectionPedido = true
+      $("#BtnVentas").css("background-color" , "#F7F7F7")
+      $("#BtnPedidos").css("background-color" , "#FDE8F1")
+
+    };
+
   }
   
   const bonoCaminoExitoComp = {

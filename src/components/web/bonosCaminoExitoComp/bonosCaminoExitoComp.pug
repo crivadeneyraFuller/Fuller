@@ -7,75 +7,66 @@ header-comp
       
 .container-fluid.pb-4.dashboard-page
   .row.mb-md-3.pb-md-3
-    .col-6.mt-3
-      .card
-        .card__content.mb-2
-          .d-flex.align-items-right.justify-content-between.mt-3
-           a.mb-3( href="#/otrosReportesSeleccion")
-            img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
-        
-          
-          
-        .row.ml-1
-         .col-12.mt-3 
-          get-object( obj-id='{{ $ctrl.GraficosVenta }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')           
-    .col-6.mt-3
-      .card
-        .card__content.mb-2
-          .d-flex.align-items-center.justify-content-between.mt-3
-           a.mb-3( href="#/otrosReportesSeleccion")
-            img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
-
-        .row.ml-1
-          get-object( obj-id='{{ $ctrl.GraficosPedido }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='2' options='false')
-        
     .col-12.mt-3
-      .card
-        .card__content.mb-2
-          .d-flex.align-items-center.justify-content-between.mt-3
-            span.is-font-weight--bold.is-h5 Detalle
-
+     .card
+      .card__content.mb-2
+           a.mb-3( href="#/otrosReportesSeleccion" style="float: right")
+             img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+   
+      .card-header 
+       .btn-group
+        button.btn( ng-click="$ctrl.ClickTblVenta()" id="BtnVentas" ) Ventas
+        button.btn( ng-click="$ctrl.ClickTblPedido()" id="BtnPedidos"  ) Pedidos
+      
+      .card-body
+       div.fade-in(id="SectionVenta" ng-if="SectionVenta")
         .row
-         .col-2
-          get-object( obj-id='{{ $ctrl.FiltroVentas }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='2' options='false')  
-          get-object( obj-id='{{ $ctrl.FiltroVentas2 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='3' options='false')         
-          get-object( obj-id='{{ $ctrl.FiltroVentas3 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='4' options='false')        
-          get-object( obj-id='{{ $ctrl.FiltroVentas4 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='5' options='false')          
-          get-object( obj-id='{{ $ctrl.FiltroVentas5 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='6' options='false')  
+          .col-lg-2.col-sm-12
+           .card
+             get-object( obj-id='{{ $ctrl.FiltroVentas }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')  
+             get-object( obj-id='{{ $ctrl.FiltroVentas2 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.FiltroVentas3 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')        
+             get-object( obj-id='{{ $ctrl.FiltroVentas4 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')          
+             get-object( obj-id='{{ $ctrl.FiltroVentas5 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false') 
+          .col-lg-10.col-sm-12
+           .card
+            .car-header
+             .d-flex.align-items-center.justify-content-between.mt-3
+              button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('1a79f55b-43cd-442c-81f8-c77784d25e24')" )
+               span.pr-3.txt-light Exportar
+               img( src='../../../assets/icons/icon-excel.svg' )
+            .card-body
+              get-object( obj-id='{{ $ctrl.TablaVenta }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')
+        div(style="height:50px")
+        .card
+          get-object( obj-id='{{ $ctrl.GraficosVenta }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false') 
         
-         .col-10      
-          .d-flex.align-items-center.justify-content-between.mt-3
-           button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('1a79f55b-43cd-442c-81f8-c77784d25e24')" )
-            span.pr-3.txt-light Exportar
-            img( src='../../../assets/icons/icon-excel.svg' )
-           a.mb-3( href="#/otrosReportesSeleccion")
-            img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
-        
-          get-object( obj-id='{{ $ctrl.TablaVenta }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='7' options='false')
-        
+       div.fade-in(id="SectionPedido" ng-if="SectionPedido" )   
 
-    .col-12.mt-3
-      .card
-        .card__content.mb-2
-          .d-flex.align-items-center.justify-content-between.mt-3
-            span.is-font-weight--bold.is-h5 Detalle
 
-        .row
-         .col-2
-          get-object( obj-id='{{ $ctrl.FiltroPedido }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='8' options='false')  
-          get-object( obj-id='{{ $ctrl.FiltroPedido2 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='9' options='false')         
-          get-object( obj-id='{{ $ctrl.FiltroPedido3 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='10' options='false')        
-          get-object( obj-id='{{ $ctrl.FiltroPedido4 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='11' options='false')          
-          get-object( obj-id='{{ $ctrl.FiltroPedido5 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='12' options='false')  
-        
-         .col-10   
+         .row
+          .col-lg-2.col-sm-12
+           .card
+             get-object( obj-id='{{ $ctrl.FiltroPedido }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')  
+             get-object( obj-id='{{ $ctrl.FiltroPedido2 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.FiltroPedido3 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')        
+             get-object( obj-id='{{ $ctrl.FiltroPedido4 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')          
+             get-object( obj-id='{{ $ctrl.FiltroPedido5 }}' height='50px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false') 
+          .col-lg-10.col-sm-12
+           .card
+            .car-header
+             .d-flex.align-items-center.justify-content-between.mt-3
+              button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('ca956496-8970-4a3a-b7d9-0e23b3b47ac0')" )
+               span.pr-3.txt-light Exportar
+               img( src='../../../assets/icons/icon-excel.svg' )
+            .car-body
+             get-object( obj-id='{{ $ctrl.TablaPedido }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false')
+         div(style="height:50px")
+         .card
+           get-object( obj-id='{{ $ctrl.GraficosPedido }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='1' options='false') 
 
-          .d-flex.align-items-center.justify-content-between.mt-3
-           button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('ca956496-8970-4a3a-b7d9-0e23b3b47ac0')" )
-            span.pr-3.txt-light Exportar
-            img( src='../../../assets/icons/icon-excel.svg' )
-           a.mb-3( href="#/otrosReportesSeleccion")
-            img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+
+
+
         
-          get-object( obj-id='{{ $ctrl.TablaPedido }}' height='300px' style="width: 100%;" app='BonoCaminoExito' num-obj='13' options='false')
         
