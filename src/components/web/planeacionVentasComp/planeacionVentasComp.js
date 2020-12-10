@@ -17,7 +17,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
     }
 
     ctrl.exportDataExcel = (idQlik) => {
-      openApp['Planeacion_Ventas'].getObject(idQlik).then(function (vizModel) {
+      openApp['PlaneacionVentas'].getObject(idQlik).then(function (vizModel) {
         vizModel.exportData().then(function (reply) {
           var link = document.createElement("a");
           link.href = reply.qUrl;

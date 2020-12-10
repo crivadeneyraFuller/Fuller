@@ -7,6 +7,11 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.openApp = openApp[ctrl.app || appData.appValesGasolina];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
       ctrl.Tabla = appData.ValesGasolinaComp.General.tabla.Tabla
+      ctrl.Filtro = appData.ValesGasolinaComp.General.filtro.Filtro
+      ctrl.Filtro2 = appData.ValesGasolinaComp.General.filtro.Filtro2
+      ctrl.Filtro3 = appData.ValesGasolinaComp.General.filtro.Filtro3
+      ctrl.Filtro4 = appData.ValesGasolinaComp.General.filtro.Filtro4
+      ctrl.Filtro5 = appData.ValesGasolinaComp.General.filtro.Filtro5
   
     }
 

@@ -1,51 +1,51 @@
 {
     "appName": "FullerApp_v1",
     "appNameOtros": "FullerApp_Reporte_v2",
-    "appCatalogo": "Catalogo_Directoras",
-    "appCatalogoGerentes": "Catalogo_Gerentes",
-    "appCatalogoCoordinadores": "Catalogo_Coordinadores",
-    "appFullerretesActivasZonas": "FullerettesActivas_Zonas",
-    "appFullerretesBajas": "FullerettesBajas",
-    "appPlaneacionVentas": "Planeacion_Ventas",
-    "appPlaneacionVentasDistrito": "Planeacion_Ventas_Distrito",
-    "appDetalleContratosCampana": "Detalle_Contatos_Campana", 
-    "appPrestige": "Prestige",
+    "appCatalogo": "CATALOGO_DIRECTORAS",
+    "appCatalogoGerentes": "CATALOGO_GERENTES",
+    "appCatalogoCoordinadores": "CATALOGO_COORDINADORES",
+    "appFullerretesActivasZonas": "FULLERETTES_ACTIVAS_ZONAS",
+    "appFullerretesBajas": "FULLERETTES_BAJAS",
+    "appPlaneacionVentas": "PLANEACION_VENTAS",
+    "appPlaneacionVentasDistrito": "PLANEACION_VENTAS_DISTRITO",
+    "appDetalleContratosCampana": "DETALLE_CONTRATOS_CAMPANA", 
+    "appPrestige": "PRESTIGE",
     "appPuntoQuiebre": "Punto_Quiebre",
-    "appValesGasolina": "Vales_Gasolina",
-    "appStellarGerentes": "Stellar_Gerentes",
-    "appStellarDirectoras": "Stellar",
-    "appBonoCaminoExito": "Bonos_Camino_Exito",
-    "appIndicadoresDistrito": "Distrito",
-    "appIndicadoresDivision": "Division",
-    "appIndicadoresZonas": "Zonas",
+    "appValesGasolina": "VALES_GASOLINA",
+    "appStellarGerentes": "STELLAR_GERENTES",
+    "appStellarDirectoras": "STELLAR",
+    "appBonoCaminoExito": "BONOS_CAMINO_EXITO",
+    "appIndicadoresDistrito": "VENTAS_DISTRITO",
+    "appIndicadoresDivision": "VENTAS_DIVISION",
+    "appIndicadoresZonas": "ZONAS",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
             "FullerApp_Reporte_v2": "FullerApp_Reporte_v2.qvf",
-            "Catalogo_Directoras": "Catalogo_Directoras.qvf",
-            "Catalogo_Gerentes": "Catalogo_Gerentes.qvf",
-            "Catalogo_Coordinadores": "Catalogo_Coordinadores.qvf",
-            "FullerettesActivas_Zonas": "FullerettesActivas_Zonas.qvf",
-            "FullerettesBajas": "FullerettesBajas.qvf",
-            "PlaneacionVentas": "Planeacion_Ventas.qvf",
-            "PlaneacionVentasDistrito": "Planeacion_Ventas_Distrito.qvf",
-            "DetalleContratosCampana": "Detalle_Contatos_Campana.qvf",
-            "Prestige":"Prestige.qvf",
+            "Catalogo_Directoras": "CATALOGO_DIRECTORAS.qvf",
+            "Catalogo_Gerentes": "CATALOGO_GERENTES.qvf",
+            "Catalogo_Coordinadores": "CATALOGO_COORDINADORES.qvf",
+            "FullerettesActivas_Zonas": "FULLERETTES_ACTIVAS_ZONAS.qvf",
+            "FullerettesBajas": "FULLERETTES_BAJAS.qvf",
+            "PlaneacionVentas": "PLANEACION_VENTAS.qvf",
+            "PlaneacionVentasDistrito": "PLANEACION_VENTAS_DISTRITO.qvf",
+            "DetalleContratosCampana": "DETALLE_CONTRATOS_CAMPANA.qvf",
+            "Prestige":"PRESTIGE.qvf",
             "PuntoQuiebre": "Punto_Quiebre.qvf",
-            "ValesGasolina": "Vales_Gasolina.qvf",
-            "StellarGerentes": "Stellar_Gerentes.qvf",
-            "StellarDirectoras": "Stellar.qvf",
-            "BonoCaminoExito": "Bonos_Camino_Exito.qvf",
-            "Distrito": "Distrito.qvf",
-            "Division": "Division.qvf",
-            "Zonas": "Zonas.qvf"
+            "ValesGasolina": "VALES_GASOLINA.qvf",
+            "StellarGerentes": "STELLAR_GERENTES.qvf",
+            "StellarDirectoras": "STELLAR.qvf",
+            "BonoCaminoExito": "BONOS_CAMINO_EXITO.qvf",
+            "Distrito": "VENTAS_DISTRITO.qvf",
+            "Division": "VENTAS_DIVISION.qvf",
+            "Zonas": "ZONAS.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
             "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7",
-            "Catalogo_Directoras": "b1263d1a-f45e-45db-acc7-8b7a688059b5",
+            "Catalogo_Directoras": "63f461bc-397e-43b3-944e-6836a79d4569",
             "Catalogo_Gerentes": "d8c78ed6-25d6-4d04-8383-49e10596bc87",
-            "Catalogo_Coordinadores": "720ca46d-9e53-4c42-91f7-94e4361c9017",         
+            "Catalogo_Coordinadores": "5b951025-a8dc-4ac8-9908-9eba4c2f21de",         
             "FullerettesActivas_Zonas": "fdeb9a7f-2ee2-4f00-86cc-f307ebc73aa3",      
             "FullerettesBajas": "6a25acff-0274-4274-95b2-75f715ab0713",
             "PlaneacionVentas": "f90c878f-1eff-407f-b565-598a2496e78b",
@@ -53,12 +53,12 @@
             "DetalleContratosCampana": "40ef6d94-fb4d-4002-96ac-daa14c29b02f",
             "Prestige": "722f8f23-d1db-40be-a4e1-16f4353f867a",
             "PuntoQuiebre": "565dda36-b485-499a-bea2-975caad2ac30",
-            "ValesGasolina": "e01d2fbd-e3bd-4341-8db4-df41f9440fdd",
+            "ValesGasolina": "0a02d530-5080-41cb-b590-d80db4560a39",
             "StellarGerentes": "2a0a5f39-910d-4b62-82b2-72f7d897ff8e",
             "StellarDirectoras": "f579b294-a5e0-4f01-adc0-b5ee8c1e1259",
             "BonoCaminoExito": "cde8629b-34a0-42e2-b85e-646bcb1a162f",
-            "Distrito": "0ca6ebba-0c39-4960-aaa8-c8c7fcdb7b43",
-            "Division": "66193ee5-af84-4e53-92dd-28d7e3daa602",
+            "Distrito": "f69944d4-516d-48c7-b60d-a02d5b32616b",
+            "Division": "41596dc2-69b0-40e2-8909-a82ff07bbc2a",
             "Zonas": "91f1fc1d-9e52-4096-bd94-64e8cc4d5df5"
         }
 
@@ -281,13 +281,24 @@
             "kpi": {},
             "variable": {},
             "dimension": {}
-        }
+        },
+        "fontSize" : "20px"
 
     },
     "CatalogoCoordinadoresComp":{
         "General": {
             "tabla": {
                 "Tabla": "ggvpeW"
+            },
+            "filtros":{
+                "Filtro": "kfnzUd",
+                "Filtro2": "Semytb",
+                "Filtro3": "JsStex",
+                "Filtro4": "kDsbdQ",
+                "Filtro5": "sjkkpZs",
+                "Filtro6": "hzBwMP",
+                "Filtro7": "vumQnEV"
+                
             },
             "objeto": {
                 "Lista": "",
@@ -383,9 +394,9 @@
             {
                 "Filtro":"WvVtH",
                 "Filtro2":"QjFEJmG",
-                "Filtro3":"Hpbmpa",
+                "Filtro3":"HPbmpa",
                 "Filtro4":"cpj",
-                "Filtro5":"cpj"
+                "Filtro5":"PtrXH"
             },
             "objeto": {
                 "Lista": "",
@@ -440,7 +451,12 @@
                 "Tabla": "058d199a-aa36-475c-9c23-1414561aa78a"
             },
             "filtro":{
-                "Filtro": "6c3af630-5af0-445d-9a60-d783cfc35e80"
+                "Filtro": "NNpcQ",
+                "Filtro2": "CpfEJ",
+                "Filtro3": "HAsjpqS",
+                "Filtro4": "kmbBSgC",
+                "Filtro5": "bjmBZW"
+
             },
             "objeto": {
                 "Lista": "",
@@ -510,7 +526,7 @@
             "filstrosPedido":{
                 "Filtro": "rZxs",
                 "Filtro2": "eNdevZE",
-                "Filtro3": "ajknJw",
+                "Filtro3": "sjknJw",
                 "Filtro4": "mhyru",
                 "Filtro5": "fgKUt"
             },
@@ -538,13 +554,14 @@
 
         "General": {
             "tabla": {
-                "Tabla": "QpuBJpF"
+                "Tabla": "mQChBG"
             },
             "filtros":{
-                "Filtro": "LBmgnTH",
-                "Filtro2": "ZtL",
-                "Filtro3": "njppgu",
-                "Filtro4": "dkcsZRX"
+                "Filtro": "juZRpPm",
+                "Filtro2": "RpjY",
+                "Filtro3": "vDdnCSA",
+                "Filtro4": "JYQU",
+                "Filtro5": "VhYdf"
             },
             "objeto": {
                 "Lista": "",
@@ -561,14 +578,14 @@
 
         "General": {
             "tabla": {
-                "Tabla": "ajQtTf"
+                "Tabla": "yVLAtm"
             },
             "filtros":{
-                "Filtro": "hRRBRY",
-                "Filtro2": "vUAwkJ",
-                "Filtro3": "hDQbSHn",
-                "Filtro4": "ydnGx",
-                "Filtro5": "ZWMCYP"
+                "Filtro": "ZXZTx",
+                "Filtro2": "jacSymy",
+                "Filtro3": "dfdB",
+                "Filtro4": "QGUQmQ",
+                "Filtro5": "HXPNgq"
                 
             },
             "objeto": {

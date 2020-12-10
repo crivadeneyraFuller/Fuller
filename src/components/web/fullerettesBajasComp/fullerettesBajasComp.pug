@@ -12,14 +12,18 @@ header-comp
       .card
         .card__content.mb-2
           .d-flex.align-items-center.justify-content-between.mt-3
-            span.is-font-weight--bold.is-h5 Detalle
-            button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('mVntqA')" )
-              span.pr-3.txt-light Exportar
-              img( src='../../../assets/icons/icon-excel.svg' )             
+            span.is-font-weight--bold.is-h5 Detalle       
+
             a.mb-3( href="#/otrosReportesSeleccion")
               img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
         .row.ml-1
          .col-lg-12.col-sm-12
-           get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='FullerettesBajas' num-obj='1' options='false')
+          .card
+           .d-flex.align-items-center.justify-content-between.mt-3
+             button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('mVntqA')" )
+              span.pr-3.txt-light Exportar
+              img( src='../../../assets/icons/icon-excel.svg' ) 
+           
+           get-object( obj-id='{{ $ctrl.Tabla }}' height='1000px' style="width: 100%;" app='FullerettesBajas' num-obj='1' options='false')
         
 

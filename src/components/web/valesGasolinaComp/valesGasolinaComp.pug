@@ -13,13 +13,23 @@ header-comp
         .card__content.mb-2
           .d-flex.align-items-center.justify-content-between.mt-3
             span.is-font-weight--bold.is-h5 Detalle
-            button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('058d199a-aa36-475c-9c23-1414561aa78a')" )
-              span.pr-3.txt-light Exportar
-              img( src='../../../assets/icons/icon-excel.svg' )
             a.mb-3( href="#/otrosReportesSeleccion")
               img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
         .row.ml-1
-          get-object( obj-id='{{ $ctrl.Filtro }}' height='50px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
-          get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='ValesGasolina' num-obj='2' options='false')
+          .col-lg-2.col-md-4.col-sm-12
+           .card
+             get-object( obj-id='{{ $ctrl.Filtro }}' height='50px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
+             get-object( obj-id='{{ $ctrl.Filtro2 }}' height='50px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
+             get-object( obj-id='{{ $ctrl.Filtro3 }}' height='50px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
+             get-object( obj-id='{{ $ctrl.Filtro4 }}' height='50px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
+             get-object( obj-id='{{ $ctrl.Filtro5 }}' height='50px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
+          .col-lg-10.col-md-4.col-sm-12
+           .card
+            .d-flex.align-items-center.justify-content-between.mt-3
+              button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('058d199a-aa36-475c-9c23-1414561aa78a')" )
+                span.pr-3.txt-light Exportar
+                img( src='../../../assets/icons/icon-excel.svg' )
+            
+            get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='ValesGasolina' num-obj='1' options='false')
         
 

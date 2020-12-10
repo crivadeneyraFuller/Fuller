@@ -18,9 +18,13 @@ function Controller(appData, $scope, $rootScope, openApp) {
           link.download = reply.qUrl.substr(reply.qUrl.lastIndexOf("/") + 1);
           link.click();
           link.remove();
+
         });
       });
+    
+    
     };
+    
   }
   
   const fullerettesactivaszonasComp = {
