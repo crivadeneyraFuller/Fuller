@@ -17,7 +17,8 @@
     "appBonoCaminoExito": "BONOS_CAMINO_EXITO",
     "appIndicadoresDistrito": "VENTAS_DISTRITO",
     "appIndicadoresDivision": "VENTAS_DIVISION",
-    "appIndicadoresZonas": "ZONAS",
+    "appIndicadoresZonas": "VENTAS_ZONAS",
+    "appSeguimientoContratos": "SEGUIMIENTO_CONTRATOS",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -38,7 +39,8 @@
             "BonoCaminoExito": "BONOS_CAMINO_EXITO.qvf",
             "Distrito": "VENTAS_DISTRITO.qvf",
             "Division": "VENTAS_DIVISION.qvf",
-            "Zonas": "ZONAS.qvf"
+            "Zonas": "VENTAS_ZONAS.qvf",
+            "SeguimientoContratos": "SEGUIMIENTO_CONTRATOS.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -59,7 +61,8 @@
             "BonoCaminoExito": "cde8629b-34a0-42e2-b85e-646bcb1a162f",
             "Distrito": "f69944d4-516d-48c7-b60d-a02d5b32616b",
             "Division": "41596dc2-69b0-40e2-8909-a82ff07bbc2a",
-            "Zonas": "91f1fc1d-9e52-4096-bd94-64e8cc4d5df5"
+            "Zonas": "741cfca0-3973-45a1-b401-40de3ff057b3",
+            "SeguimientoContratos": "fa634957-b82f-4d9e-882b-e0292b4c7f41"
         }
 
     },
@@ -606,11 +609,33 @@
                 "Tabla": "3c242d35-c2ed-4168-b8d2-24b59a72510c"
             },
             "filtros":{
-                "Filtro": "MumDHY",
-                "Filtro2": "GhduWqE",
-                "Filtro3": "VPXheP",
-                "Filtro4": "kJQwvrG",
-                "Filtro5": "nCVfZEX"
+                "Filtro": "pJdhBA",
+                "Filtro2": "JjT",
+                "Filtro3": "DkKUjYH",
+                "Filtro4": "WzjLnm",
+                "Filtro5": "mnYCT",
+                "Filtro6": "nPmJW",
+                "Filtro7": "npKUB"
+                
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+    "SeguimientoContratosComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "TaWMFh"
+            },
+            "filtros":{
                 
             },
             "objeto": {

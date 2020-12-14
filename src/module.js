@@ -40,6 +40,7 @@ import bonoscaminoexitoComp from './components/web/bonosCaminoExitoComp/bonosCam
 import indicadoresdistritoComp from './components/web/indicadoresDistritoComp/indicadoresDistritoComp'
 import indicadoresdivisionComp from './components/web/indicadoresDivisionComp/indicadoresDivisionComp'
 import indicadoreszonasComp from './components/web/indicadoresZonasComp/indicadoresZonasComp'
+import seguimientocontratosComp from './components/web/seguimientoContratosComp/seguimientoContratosComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -85,6 +86,7 @@ const appModule = (qlik, responseJson) => (
   .component('indicadoresdistritoComp', indicadoresdistritoComp)
   .component('indicadoresdivisionComp', indicadoresdivisionComp)
   .component('indicadoreszonasComp', indicadoreszonasComp)
+  .component('seguimientocontratosComp', seguimientocontratosComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )

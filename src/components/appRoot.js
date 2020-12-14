@@ -149,6 +149,10 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/seguimientocontratos' && next && next.$$route && next.$$route.originalPath != '/seguimientocontratos') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
       }
       // Cuando se refresca en la misma pagina
       else {
@@ -231,6 +235,10 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
         }
         // cuando refrescas sobre Otros Reportes se limpian
         else if (next && next.$$route && next.$$route.originalPath  == '/indicadoreszonas' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/seguimientocontratos' ) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian

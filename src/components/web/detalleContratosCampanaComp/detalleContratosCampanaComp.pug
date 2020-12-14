@@ -1,12 +1,18 @@
 header-comp
 
-.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2( style="height: 10.625rem" )
   .row.pt-sm-3.pt-md-4.flex-wrap
     .col-12
-      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Reportes
-
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Detalle Contratos
 
 .container-fluid.pb-4.dashboard-page
+  .cards-container
+    .claseCool
+      .row.mb-0.mb-md-5.pb-3.header__cards
+      .card.miniCard.p-4.pt-2
+            .card__header.py-1
+              get-object.col-3.mb-3.mb-sm-0( obj-id='{{ $ctrl.KPI }}' height='100px' style="width: 100%;" app='DetalleContratosCampana' num-obj='1' options='false')
+                     
   .row.mb-md-3.pb-md-3
     .col-12.mt-3
       .card
@@ -16,10 +22,6 @@ header-comp
             a.mb-3( href="#/otrosReportesSeleccion")
               img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
         .row.ml-1
-         .col-12.mt-3
-          .card
-           .card__content.mb-2 
-            get-object( obj-id='{{ $ctrl.KPI }}' height='100px' style="width: 100%;" app='DetalleContratosCampana' num-obj='1' options='false')
          .col-4.mt-3
           .card 
            .card_container

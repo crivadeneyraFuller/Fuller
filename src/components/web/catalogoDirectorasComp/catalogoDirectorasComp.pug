@@ -1,9 +1,9 @@
 header-comp
 
-.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2( style="height: 6.625rem" )
   .row.pt-sm-3.pt-md-4.flex-wrap
     .col-12
-      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Reportes
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Catálogo de Directoras
 
 
 .container-fluid.pb-4.dashboard-page
@@ -11,8 +11,7 @@ header-comp
     .col-12.mt-3
       .card
         .card__content.mb-2
-          .d-flex.align-items-center.justify-content-between.mt-3
-            span.is-font-weight--bold.is-h5 Detalle
+          .d-flex.align-items-center.justify-content-between.mt-3( style= "float:right !important" )  
             button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('jPwzQCU')" )
               span.pr-3.txt-light Exportar
               img( src='../../../assets/icons/icon-excel.svg' )
