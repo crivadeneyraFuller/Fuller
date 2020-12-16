@@ -62,7 +62,7 @@
             "Distrito": "f69944d4-516d-48c7-b60d-a02d5b32616b",
             "Division": "41596dc2-69b0-40e2-8909-a82ff07bbc2a",
             "Zonas": "741cfca0-3973-45a1-b401-40de3ff057b3",
-            "SeguimientoContratos": "fa634957-b82f-4d9e-882b-e0292b4c7f41"
+            "SeguimientoContratos": "cb50bd70-721b-4d70-b9fa-d9b5e4608974"
         }
 
     },
@@ -636,6 +636,11 @@
                 "Tabla": "TaWMFh"
             },
             "filtros":{
+
+                "Filtro": "aBtFpV",
+                "Filtro2": "paTsEPa",
+                "Filtro3": "BREPg",
+                "Filtro4": "PCysmk"
                 
             },
             "objeto": {

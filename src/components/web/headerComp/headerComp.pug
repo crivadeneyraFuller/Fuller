@@ -1,5 +1,5 @@
 header.header.w-100.position-fixed.header-nav
-  get-object.w-100( obj-id='CurrentSelections' width='100%' app='FullerApp_v1' num-obj='1' options='false')
+  //-get-object.w-100( obj-id='CurrentSelections' width='100%' app='SeguimientoContratos' num-obj='1' options='false')
   nav.navbar.navbar-expand-lg.d-flex.align-items-center.justify-content-end
     a.navbar-brand.mr-auto(href="#/")
       img.header__logo( src='../../../assets/img/logo.svg' )
@@ -36,7 +36,7 @@ header.header.w-100.position-fixed.header-nav
         button.d-flex.align-items-center.justify-content-center.close.modal__close.p-2.rounded-circle.bg-white.is-shadow.mr-0( type='button' data-dismiss='modal' aria-label='Close' ng-click="$ctrl.showFilter()" )
           span( aria-hidden='true' )
             img.img-fluid( src='../../../assets/icons/icon-cross--gray.svg' )
-      .modal-body 
+      .modal-body
         .row
           .col
             get-object.d-block( obj-id='{{ $ctrl.region }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')

@@ -7,6 +7,10 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.openApp = openApp[ctrl.app || appData.appSeguimientoContratos];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
       ctrl.Tabla = appData.SeguimientoContratosComp.General.tabla.Tabla
+      ctrl.Filtro = appData.SeguimientoContratosComp.General.filtros.Filtro
+      ctrl.Filtro2 = appData.SeguimientoContratosComp.General.filtros.Filtro2
+      ctrl.Filtro3 = appData.SeguimientoContratosComp.General.filtros.Filtro3
+      ctrl.Filtro4 = appData.SeguimientoContratosComp.General.filtros.Filtro4
   
     }
 
@@ -20,7 +24,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
           link.remove();
         });
       });
-    };2
+    };
   }
   
   const seguimientoContratosComp = {

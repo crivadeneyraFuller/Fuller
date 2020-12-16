@@ -16,7 +16,14 @@ header-comp
               img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
         .row.ml-1
          
-         .col-lg-112.col-sm-12
+         .col-lg-2.col-sm-12
+          .card
+           get-object( obj-id='{{ $ctrl.Filtro }}' height='60px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
+           get-object( obj-id='{{ $ctrl.Filtro2 }}' height='60px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
+           get-object( obj-id='{{ $ctrl.Filtro3 }}' height='60px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
+           get-object( obj-id='{{ $ctrl.Filtro4 }}' height='60px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
+
+         .col-lg-10.col-sm-12
           .card
           
            .d-flex.align-items-center.justify-content-between.mt-3
