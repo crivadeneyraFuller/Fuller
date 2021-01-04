@@ -14,6 +14,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Filtro5 = appData.ZonasComp.General.filtros.Filtro5
       ctrl.Filtro6 = appData.ZonasComp.General.filtros.Filtro6
       ctrl.Filtro7 = appData.ZonasComp.General.filtros.Filtro7
+      ctrl.Filtro8 = appData.ZonasComp.General.filtros.Filtro8
   
     }
 
