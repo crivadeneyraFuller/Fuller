@@ -19,6 +19,7 @@
     "appIndicadoresDivision": "VENTAS_DIVISION",
     "appIndicadoresZonas": "VENTAS_ZONAS",
     "appSeguimientoContratos": "SEGUIMIENTO_CONTRATOS",
+    "appSeguimientosPagos": "SEGUIMIENTO_PAGOS",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -40,7 +41,8 @@
             "Distrito": "VENTAS_DISTRITO.qvf",
             "Division": "VENTAS_DIVISION.qvf",
             "Zonas": "VENTAS_ZONAS.qvf",
-            "SeguimientoContratos": "SEGUIMIENTO_CONTRATOS.qvf"
+            "SeguimientoContratos": "SEGUIMIENTO_CONTRATOS.qvf",
+            "SeguimientosPagos": "SEGUIMIENTO_PAGOS.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -50,9 +52,9 @@
             "Catalogo_Coordinadores": "5b951025-a8dc-4ac8-9908-9eba4c2f21de",         
             "FullerettesActivas_Zonas": "fdeb9a7f-2ee2-4f00-86cc-f307ebc73aa3",      
             "FullerettesBajas": "6a25acff-0274-4274-95b2-75f715ab0713",
-            "PlaneacionVentas": "f90c878f-1eff-407f-b565-598a2496e78b",
+            "PlaneacionVentas": "589352d1-2200-4bc5-ac50-bd0fd46015e3",
             "PlaneacionVentasDistrito": "8aeb9664-938d-476e-afe2-69ef5416bafd",
-            "DetalleContratosCampana": "40ef6d94-fb4d-4002-96ac-daa14c29b02f",
+            "DetalleContratosCampana": "cf9d4714-c005-4bf2-a216-7e61db8181ed",
             "Prestige": "722f8f23-d1db-40be-a4e1-16f4353f867a",
             "PuntoQuiebre": "565dda36-b485-499a-bea2-975caad2ac30",
             "ValesGasolina": "0a02d530-5080-41cb-b590-d80db4560a39",
@@ -62,7 +64,8 @@
             "Distrito": "f69944d4-516d-48c7-b60d-a02d5b32616b",
             "Division": "41596dc2-69b0-40e2-8909-a82ff07bbc2a",
             "Zonas": "2edc5a33-d13a-4e6d-9890-a346978834e1",
-            "SeguimientoContratos": "e581ee82-da6c-4ad6-bd6c-2f8c1bb862a9"
+            "SeguimientoContratos": "e581ee82-da6c-4ad6-bd6c-2f8c1bb862a9",
+            "SeguimientosPagos": "d867a640-bd23-4df7-b3fc-9d4e8c2941c4"
         }
 
     },
@@ -642,6 +645,36 @@
                 "Filtro2": "sUxAvL",
                 "Filtro3": "LcpsMw",
                 "Filtro4": "xrRty"
+                
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+
+    },
+
+    "SeguimientosPagosComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "pJdJc"
+            },
+            "filtros":{
+
+                "Filtro": "LjJfyF",
+                "Filtro2": "PJKvpR",
+                "Filtro3": "MEkYeJm",
+                "Filtro4": "mJzpLE",
+                "Filtro5": "PGApGL",
+                "Filtro6": "dLeWKw",
+                "Filtro7": "jyvhFyq",
+                "Filtro8": "SshykeJ"
                 
             },
             "objeto": {
