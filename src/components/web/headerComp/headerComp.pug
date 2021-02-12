@@ -29,6 +29,7 @@ header.header.w-100.position-fixed.header-nav
       span.txt-light.is-h6 SALIR
 
 #exampleModal.modal.fade( role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true' ng-if='$ctrl.modalFiltro' )
+
   .modal-dialog.modal-dialog-centered( role='document' )
     .modal-content.border-0.modalMob.shadow.mt-filter
       .modal-header.d-flex.align-items-center.justify-content-center.modalmt-xs
@@ -55,3 +56,5 @@ header.header.w-100.position-fixed.header-nav
             get-object.d-block( obj-id='{{ $ctrl.anio }}' height='36px' width='100%' app='FullerApp_v1' num-obj='1' options='false')
           .col.d-none( ng-class="{'d-block':$ctrl.ventana == '#/reporteDinamico'}" )
             get-object.d-block( obj-id='{{ $ctrl.movAnio }}' height='36px' width='100%' app='FullerApp_v1' num-obj='2' options='false')
+
+  

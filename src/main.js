@@ -3,6 +3,7 @@ import appModule from './module'
 import './libs/pollyfils/find';
 import 'bootstrap';
 import 'jquery';
+import 'moment'
 import 'popper.js'
 import './scss/main.scss'
 

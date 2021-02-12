@@ -30,7 +30,7 @@
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.14.1",
     "pug-html-loader": "^1.1.5",
-    "resolve-url-loader": "^3.0.0",
+    "resolve-url-loader": "^3.1.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
@@ -41,7 +41,8 @@
     "anychart": "^8.7.1",
     "bootstrap": "^4.4.1",
     "favicons-webpack-plugin": "0.0.9",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
     "normalize-scss": "^7.0.1",
     "popper.js": "^1.16.1"
   },
