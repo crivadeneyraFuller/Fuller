@@ -84,6 +84,12 @@ function Service($routeProvider, $locationProvider) {
     .when('/seguimientocontratos', {
       template: '<seguimientoContratos-comp></seguimientoContratos-comp>'
     })
+    .when('/convencionce', {
+      template: '<convencionce-comp></convencionce-comp>'
+    })
+    .when('/convencionge', {
+      template: '<convencionge-comp></convencionge-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })

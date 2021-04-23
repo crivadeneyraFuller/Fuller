@@ -8,7 +8,7 @@
     "appFullerretesBajas": "FULLERETTES_BAJAS",
     "appPlaneacionVentas": "PLANEACION_VENTAS",
     "appPlaneacionVentasDistrito": "PLANEACION_VENTAS_DISTRITO",
-    "appDetalleContratosCampana": "DETALLE_CONTRATOS_CAMPANA", 
+    "appDetalleContratosCampana": "DETALLE_CONTRATOS_CAMPANA",
     "appPrestige": "PRESTIGE",
     "appPuntoQuiebre": "Punto_Quiebre",
     "appValesGasolina": "VALES_GASOLINA",
@@ -19,6 +19,8 @@
     "appIndicadoresDivision": "VENTAS_DIVISION",
     "appIndicadoresZonas": "VENTAS_ZONAS",
     "appSeguimientoContratos": "SEGUIMIENTO_CONTRATOS",
+    "appConvencionCE": "CONVENCION_CE",
+    "appConvencionGE": "CONVENCION_GE",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -31,7 +33,7 @@
             "PlaneacionVentas": "PLANEACION_VENTAS.qvf",
             "PlaneacionVentasDistrito": "PLANEACION_VENTAS_DISTRITO.qvf",
             "DetalleContratosCampana": "DETALLE_CONTRATOS_CAMPANA.qvf",
-            "Prestige":"PRESTIGE.qvf",
+            "Prestige": "PRESTIGE.qvf",
             "PuntoQuiebre": "Punto_Quiebre.qvf",
             "ValesGasolina": "VALES_GASOLINA.qvf",
             "StellarGerentes": "STELLAR_GERENTES.qvf",
@@ -40,15 +42,17 @@
             "Distrito": "VENTAS_DISTRITO.qvf",
             "Division": "VENTAS_DIVISION.qvf",
             "Zonas": "VENTAS_ZONAS.qvf",
-            "SeguimientoContratos": "SEGUIMIENTO_CONTRATOS.qvf"
+            "SeguimientoContratos": "SEGUIMIENTO_CONTRATOS.qvf",
+            "ConvencionCE": "CONVENCION_CE.qvf",
+            "ConvencionGE": "CONVENCION_GE.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
             "FullerApp_Reporte_v2": "d11f8abb-6814-4e95-876b-466fad964de7",
             "Catalogo_Directoras": "63f461bc-397e-43b3-944e-6836a79d4569",
             "Catalogo_Gerentes": "d8c78ed6-25d6-4d04-8383-49e10596bc87",
-            "Catalogo_Coordinadores": "5b951025-a8dc-4ac8-9908-9eba4c2f21de",         
-            "FullerettesActivas_Zonas": "fdeb9a7f-2ee2-4f00-86cc-f307ebc73aa3",      
+            "Catalogo_Coordinadores": "5b951025-a8dc-4ac8-9908-9eba4c2f21de",
+            "FullerettesActivas_Zonas": "fdeb9a7f-2ee2-4f00-86cc-f307ebc73aa3",
             "FullerettesBajas": "6a25acff-0274-4274-95b2-75f715ab0713",
             "PlaneacionVentas": "f90c878f-1eff-407f-b565-598a2496e78b",
             "PlaneacionVentasDistrito": "8aeb9664-938d-476e-afe2-69ef5416bafd",
@@ -62,9 +66,10 @@
             "Distrito": "f69944d4-516d-48c7-b60d-a02d5b32616b",
             "Division": "41596dc2-69b0-40e2-8909-a82ff07bbc2a",
             "Zonas": "2edc5a33-d13a-4e6d-9890-a346978834e1",
-            "SeguimientoContratos": "e581ee82-da6c-4ad6-bd6c-2f8c1bb862a9"
+            "SeguimientoContratos": "e581ee82-da6c-4ad6-bd6c-2f8c1bb862a9",
+            "ConvencionCE": "4ab09d16-7934-4b98-a5ee-4270f7cdb417",
+            "ConvencionGE": "a7f9434d-b908-4a70-bc98-c01a76de72c1"
         }
-
     },
     "Filtros": {
         "General": {
@@ -255,7 +260,7 @@
             "dimension": {}
         }
     },
-    "CatalogoDirectorasComp":{
+    "CatalogoDirectorasComp": {
         "General": {
             "tabla": {
                 "Tabla": "jPwzQCU"
@@ -269,9 +274,8 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "CatalogoGerentesComp":{
+    "CatalogoGerentesComp": {
         "General": {
             "tabla": {
                 "Tabla": "LbCLmf"
@@ -285,15 +289,14 @@
             "variable": {},
             "dimension": {}
         },
-        "fontSize" : "20px"
-
+        "fontSize": "20px"
     },
-    "CatalogoCoordinadoresComp":{
+    "CatalogoCoordinadoresComp": {
         "General": {
             "tabla": {
                 "Tabla": "ggvpeW"
             },
-            "filtros":{
+            "filtros": {
                 "Filtro": "kfnzUd",
                 "Filtro2": "Semytb",
                 "Filtro3": "JsStex",
@@ -301,7 +304,6 @@
                 "Filtro5": "sjkkpZs",
                 "Filtro6": "hzBwMP",
                 "Filtro7": "vumQnEV"
-                
             },
             "objeto": {
                 "Lista": "",
@@ -312,9 +314,8 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "FullerettesActivasZonasComp":{
+    "FullerettesActivasZonasComp": {
         "General": {
             "tabla": {
                 "Tabla": "pQmGUB"
@@ -328,9 +329,8 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "FullerettesBajasComp":{
+    "FullerettesBajasComp": {
         "General": {
             "tabla": {
                 "Tabla": "mVntqA"
@@ -344,21 +344,18 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "PlaneacionVentasComp":{
+    "PlaneacionVentasComp": {
         "General": {
             "tabla": {
                 "Tabla": "KmgBS",
                 "Tabla2": "a0ebf25e-d61e-41ff-9736-d61831d88839",
                 "Tabla3": "aJRwJs"
             },
-            "filtros":{
-
+            "filtros": {
                 "Filtro": "UttXcNH",
                 "Filtro2": "139f9d71-9bcb-4a6c-9efc-a652744c9c3e",
                 "Filtro3": "604e72bf-6015-46e4-a176-950f1172925a"
-
             },
             "objeto": {
                 "Lista": "",
@@ -369,9 +366,8 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "PlaneacionVentasDistritoComp":{
+    "PlaneacionVentasDistritoComp": {
         "General": {
             "tabla": {
                 "Tabla": "a0ebf25e-d61e-41ff-9736-d61831d88839",
@@ -386,20 +382,18 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "DetalleContratosCampanaComp":{
+    "DetalleContratosCampanaComp": {
         "General": {
             "tabla": {
                 "Tabla": "rmHXJT"
             },
-            "filtro":
-            {
-                "Filtro":"WvVtH",
-                "Filtro2":"QjFEJmG",
-                "Filtro3":"HPbmpa",
-                "Filtro4":"cpj",
-                "Filtro5":"PtrXH"
+            "filtro": {
+                "Filtro": "WvVtH",
+                "Filtro2": "QjFEJmG",
+                "Filtro3": "HPbmpa",
+                "Filtro4": "cpj",
+                "Filtro5": "PtrXH"
             },
             "objeto": {
                 "Lista": "",
@@ -407,15 +401,13 @@
                 "Metricas": ""
             },
             "kpi": {
-
-                "KPI":"VpQDEn"
+                "KPI": "VpQDEn"
             },
             "variable": {},
             "dimension": {}
         }
-
     },
-    "PrestigeComp":{
+    "PrestigeComp": {
         "General": {
             "tabla": {
                 "Tabla": "b5885ed9-7736-482c-abee-d85cbdc73688"
@@ -429,9 +421,8 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "PuntoQuiebreComp":{
+    "PuntoQuiebreComp": {
         "General": {
             "tabla": {
                 "Tabla": "7f582b89-b4fc-44f1-8cb7-5557d97a3118"
@@ -445,21 +436,18 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "ValesGasolinaComp":{
-
+    "ValesGasolinaComp": {
         "General": {
             "tabla": {
                 "Tabla": "058d199a-aa36-475c-9c23-1414561aa78a"
             },
-            "filtro":{
+            "filtro": {
                 "Filtro": "NNpcQ",
                 "Filtro2": "CpfEJ",
                 "Filtro3": "HAsjpqS",
                 "Filtro4": "kmbBSgC",
                 "Filtro5": "bjmBZW"
-
             },
             "objeto": {
                 "Lista": "",
@@ -470,15 +458,13 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "StellarGerentesComp":{
-
+    "StellarGerentesComp": {
         "General": {
             "tabla": {
                 "Tabla": "XwxtG"
             },
-            "filtro":{
+            "filtro": {
                 "Filtro": ""
             },
             "objeto": {
@@ -490,15 +476,13 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "StellarDirectorasComp":{
-
+    "StellarDirectorasComp": {
         "General": {
             "tabla": {
                 "Tabla": "XwxtG"
             },
-            "filtro":{
+            "filtro": {
                 "Filtro": ""
             },
             "objeto": {
@@ -510,23 +494,21 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "BonoCaminoExitoComp":{
-
+    "BonoCaminoExitoComp": {
         "General": {
             "tabla": {
                 "TablaVenta": "1a79f55b-43cd-442c-81f8-c77784d25e24",
                 "TablaPedido": "ca956496-8970-4a3a-b7d9-0e23b3b47ac0"
             },
-            "filtrosVentas":{
+            "filtrosVentas": {
                 "Filtro": "tGNCqa",
                 "Filtro2": "KPayBVG",
                 "Filtro3": "BunTUct",
                 "Filtro4": "xVjxRh",
                 "Filtro5": "JmPjj"
             },
-            "filstrosPedido":{
+            "filstrosPedido": {
                 "Filtro": "rZxs",
                 "Filtro2": "eNdevZE",
                 "Filtro3": "sjknJw",
@@ -538,33 +520,29 @@
                 "Dimensiones": "",
                 "Metricas": ""
             },
-            "graficosVenta":{
-
+            "graficosVenta": {
                 "Grafico": "fMHDRf"
-
             },
-            "graficosPedido":{
-
-                "Grafico":"BSAKrP"
+            "graficosPedido": {
+                "Grafico": "BSAKrP"
             },
             "kpi": {},
             "variable": {},
             "dimension": {}
         }
-
     },
-    "DivisionComp":{
-
+    "DivisionComp": {
         "General": {
             "tabla": {
-                "Tabla": "mQChBG"
+                "Tabla": "XnVqKHP"
             },
-            "filtros":{
-                "Filtro": "juZRpPm",
-                "Filtro2": "RpjY",
-                "Filtro3": "vDdnCSA",
-                "Filtro4": "JYQU",
-                "Filtro5": "VhYdf"
+            "filtros": {
+                "Filtro": "KdDSCLA",
+                "Filtro2": "RtQjP",
+                "Filtro3": "vBCZwYj",
+                "Filtro4": "BGPKDb",
+                "Filtro5": "GkPpPJC",
+                "Filtro6": "MfcUR"
             },
             "objeto": {
                 "Lista": "",
@@ -575,15 +553,13 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "DistritoComp":{
-
+    "DistritoComp": {
         "General": {
             "tabla": {
                 "Tabla": "XTft"
             },
-            "filtros":{
+            "filtros": {
                 "Filtro": "BpLJP",
                 "Filtro2": "bqbgB",
                 "Filtro3": "LHCZmtQ",
@@ -591,7 +567,6 @@
                 "Filtro5": "cDGrAW",
                 "Filtro6": "jsrPJku",
                 "Filtro7": "GmwMD"
-                
             },
             "objeto": {
                 "Lista": "",
@@ -602,15 +577,13 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "ZonasComp":{
-
+    "ZonasComp": {
         "General": {
             "tabla": {
                 "Tabla": "3c242d35-c2ed-4168-b8d2-24b59a72510c"
             },
-            "filtros":{
+            "filtros": {
                 "Filtro": "paEB",
                 "Filtro2": "pJdhBA",
                 "Filtro3": "JjT",
@@ -619,7 +592,6 @@
                 "Filtro6": "mnYCT",
                 "Filtro7": "nPmJW",
                 "Filtro8": "npKUB"
-                
             },
             "objeto": {
                 "Lista": "",
@@ -630,21 +602,17 @@
             "variable": {},
             "dimension": {}
         }
-
     },
-    "SeguimientoContratosComp":{
-
+    "SeguimientoContratosComp": {
         "General": {
             "tabla": {
                 "Tabla": "aTvcVej"
             },
-            "filtros":{
-
+            "filtros": {
                 "Filtro": "KjXdrQ",
                 "Filtro2": "sUxAvL",
                 "Filtro3": "LcpsMw",
                 "Filtro4": "xrRty"
-                
             },
             "objeto": {
                 "Lista": "",
@@ -655,7 +623,52 @@
             "variable": {},
             "dimension": {}
         }
+    },
 
-    }
+    "ConvencionCEComp": {
+        "General": {
+            "tabla": {
+                "Tabla": "LednQkY"
+            },
+            "filtros": {
+                "Filtro": "pCDLqb",
+                "Filtro2": "VatDSM",
+                "Filtro3": "ZyMFZ",
+                "Filtro4": "XLVhj",
+                "Filtro5": "DHHjvM",
+                "Filtro6": "uZZyZmc",
+                "Filtro7": "cfPrYqE"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    },
     
+    "ConvencionGEComp": {
+        "General": {
+            "tabla": {
+                "Tabla": "DpLndYG"
+            },
+            "filtros": {
+                "Filtro": "hQaPBT",
+                "Filtro2": "pYzXZy",
+                "Filtro3": "eqfPmLx",
+                "Filtro4": "GNJUA"
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
+    }
 }
