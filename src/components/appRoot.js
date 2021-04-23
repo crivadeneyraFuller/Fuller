@@ -157,7 +157,11 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
-        else if (curr && curr.$$route && curr.$$route.originalPath == '/convencionge' && next && next.$$route && next.$$route.originalPath != '/convencionge') {
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/convencionge' && next && next.$$route && next.$$route.originalPath != '/convencionge') { 
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/seguimientospagos' && next && next.$$route && next.$$route.originalPath != '/seguimientospagos') {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
@@ -255,6 +259,9 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
         }
         // cuando refrescas sobre Otros Reportes se limpian
         else if (next && next.$$route && next.$$route.originalPath  == '/convencionge' ) {
+         // cuando refrescas sobre Otros Reportes se limpianctrl.openApp.clearAll();
+        }
+         else if (next && next.$$route && next.$$route.originalPath  == '/seguimientospagos' ) {
           ctrl.openApp.clearAll();
         }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian

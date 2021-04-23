@@ -44,6 +44,7 @@ import seguimientocontratosComp from './components/web/seguimientoContratosComp/
 import modaltimerComp from './components/web/modalTimerComp/modalTimerComp'
 import convencionceComp from './components/web/convencionCEComp/convencionCEComp'
 import convenciongeComp from './components/web/convencionGEComp/convencionGEComp'
+import seguimientospagosComp from './components/web/seguimientosPagosComp/seguimientosPagosComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -93,6 +94,7 @@ const appModule = (qlik, responseJson) => (
   .component('modaltimerComp', modaltimerComp)
   .component('convencionceComp',convencionceComp)
   .component('convenciongeComp',convenciongeComp)
+  .component('seguimientospagosComp', seguimientospagosComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )
