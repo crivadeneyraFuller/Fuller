@@ -673,5 +673,34 @@
             "variable": {},
             "dimension": {}
         }
+    },
+    
+    "SeguimientosPagosComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "pJdJc"
+            },
+            "filtros":{
+
+                "Filtro": "LjJfyF",
+                "Filtro2": "PJKvpR",
+                "Filtro3": "MEkYeJm",
+                "Filtro4": "mJzpLE",
+                "Filtro5": "PGApGL",
+                "Filtro6": "dLeWKw",
+                "Filtro7": "jyvhFyq",
+                "Filtro8": "SshykeJ"
+
+            },
+            "objeto": {
+                "Lista": "",
+                "Dimensiones": "",
+                "Metricas": ""
+            },
+            "kpi": {},
+            "variable": {},
+            "dimension": {}
+        }
     }
 }
