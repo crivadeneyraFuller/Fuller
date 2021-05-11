@@ -22,6 +22,7 @@
     "appConvencionCE": "CONVENCION_CE",
     "appConvencionGE": "CONVENCION_GE",
     "appSeguimientosPagos": "SEGUIMIENTO_PAGOS",
+    "appSegmentacionFullerettes": "SEGMENTACION",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -46,7 +47,8 @@
             "SeguimientoContratos": "SEGUIMIENTO_CONTRATOS.qvf",
             "ConvencionCE": "CONVENCION_CE.qvf",
             "ConvencionGE": "CONVENCION_GE.qvf",
-            "SeguimientosPagos": "SEGUIMIENTO_PAGOS.qvf"
+            "SeguimientosPagos": "SEGUIMIENTO_PAGOS.qvf",
+            "SegmentacionFullerettes": "SEGMENTACION.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -71,7 +73,8 @@
             "SeguimientoContratos": "e581ee82-da6c-4ad6-bd6c-2f8c1bb862a9",
             "ConvencionCE": "4ab09d16-7934-4b98-a5ee-4270f7cdb417",
             "ConvencionGE": "a7f9434d-b908-4a70-bc98-c01a76de72c1",
-            "SeguimientosPagos": "d867a640-bd23-4df7-b3fc-9d4e8c2941c4"
+            "SeguimientosPagos": "d867a640-bd23-4df7-b3fc-9d4e8c2941c4",            
+            "SegmentacionFullerettes": "a58b7635-d4f3-455d-9bf1-f5d2987c3ccf"
         }
     },
     "Filtros": {
@@ -701,6 +704,43 @@
             "kpi": {},
             "variable": {},
             "dimension": {}
+        }
+    },
+    
+    "SegmentacionFullerettesComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "HBgzY"
+            },
+            "filtros":{
+                "Filtro": "uSKaJXW",
+                "Filtro2": "aASxAEN",
+                "Filtro3": "PedEMV",
+                "Filtro4": "eqmtJ",
+                "Filtro5": "JmMEfCq",
+                "Filtro6": "HrpkGSZ",
+                "Filtro7": "MPkGFTe",
+                "Filtro8": "QHJpQw"
+
+            },
+            "graficos": {
+                "Grafico": "utjuwr",
+                "Grafico2": "VAmnsn",
+                "Grafico3": "GAhPH",
+                "Grafico4": "VPBPSqA"
+            },
+            "mapa": {
+                "Mapa": "mgPEm"
+            },
+            "kpi":{
+                "KPI": "pZYuK",
+                "KPI2": "Cegx",
+                "KPI3": "JxqGa",
+                "KPI4": "KuArpb",
+                "KPI5": "GTqATwX",
+                "KPI6": "QMPsb"
+            }
         }
     }
 }

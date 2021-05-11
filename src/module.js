@@ -45,6 +45,7 @@ import modaltimerComp from './components/web/modalTimerComp/modalTimerComp'
 import convencionceComp from './components/web/convencionCEComp/convencionCEComp'
 import convenciongeComp from './components/web/convencionGEComp/convencionGEComp'
 import seguimientospagosComp from './components/web/seguimientosPagosComp/seguimientosPagosComp'
+import segmentacionfullerettesComp from './components/web/segmentacionFullerettesComp/segmentacionFullerettesComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -95,6 +96,7 @@ const appModule = (qlik, responseJson) => (
   .component('convencionceComp',convencionceComp)
   .component('convenciongeComp',convenciongeComp)
   .component('seguimientospagosComp', seguimientospagosComp)
+  .component('segmentacionfullerettesComp', segmentacionfullerettesComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )

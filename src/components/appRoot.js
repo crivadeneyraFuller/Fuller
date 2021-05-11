@@ -165,6 +165,10 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/segmentacionfullerettes' && next && next.$$route && next.$$route.originalPath != '/segmentacionfullerettes') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
       }
       // Cuando se refresca en la misma pagina
       else {
@@ -264,6 +268,9 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
          else if (next && next.$$route && next.$$route.originalPath  == '/seguimientospagos' ) {
           ctrl.openApp.clearAll();
         }
+        else if (next && next.$$route && next.$$route.originalPath  == '/segmentacionfullerettes' ) {
+         ctrl.openApp.clearAll();
+       }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian
         else if (next && next.$$route && next.$$route.originalPath  != '/movimientosBancarios') {
           ctrl.openApp.clearAll();
