@@ -33,6 +33,22 @@ header-comp
                img( src='../../../assets/icons/icon-excel.svg' )
 
            get-object( obj-id='{{ $ctrl.Tabla }}' height='1000px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
+          
+           .d-flex.align-items-center.justify-content-between.mt-3
+
+              button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('uwqZEW')" )
+               span.pr-3.txt-light Exportar
+               img( src='../../../assets/icons/icon-excel.svg' )
+
+           get-object( obj-id='{{ $ctrl.Tabla2 }}' height='1000px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
+          
+           .d-flex.align-items-center.justify-content-between.mt-3
+
+              button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('NptZAU')" )
+               span.pr-3.txt-light Exportar
+               img( src='../../../assets/icons/icon-excel.svg' )
+
+           get-object( obj-id='{{ $ctrl.Tabla3 }}' height='1000px' style="width: 100%;" app='SeguimientoContratos' num-obj='1' options='false')
         
 
 modalTimer-comp    

@@ -96,6 +96,9 @@ function Service($routeProvider, $locationProvider) {
     .when('/segmentacionfullerettes', {
       template: '<segmentacionFullerettes-comp></segmentacionFullerettes-comp>'
     })
+    .when('/ventasopibi', {
+      template: '<ventasopibi-comp></ventasopibi-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })

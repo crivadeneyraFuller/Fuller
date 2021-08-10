@@ -12,7 +12,10 @@ function Controller(appData, $scope, $rootScope, openApp) {
     ctrl.$onInit = function () {
       ctrl.openApp = openApp[ctrl.app || appData.appSegmentacionFullerettes];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
+
       ctrl.Tabla = appData.SegmentacionFullerettesComp.General.tabla.Tabla
+      ctrl.Tabla2 = appData.SegmentacionFullerettesComp.General.tabla.Tabla2
+
       ctrl.Filtro = appData.SegmentacionFullerettesComp.General.filtros.Filtro
       ctrl.Filtro2 = appData.SegmentacionFullerettesComp.General.filtros.Filtro2
       ctrl.Filtro3 = appData.SegmentacionFullerettesComp.General.filtros.Filtro3
@@ -27,6 +30,10 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Grafico3 = appData.SegmentacionFullerettesComp.General.graficos.Grafico3
       ctrl.Grafico4 = appData.SegmentacionFullerettesComp.General.graficos.Grafico4
 
+      ctrl.Mapa = appData.SegmentacionFullerettesComp.General.mapa.Mapa
+
+      ctrl.Imagen = appData.SegmentacionFullerettesComp.General.imagen.Imagen
+
       ctrl.KPI = appData.SegmentacionFullerettesComp.General.kpi.KPI
       ctrl.KPI2 = appData.SegmentacionFullerettesComp.General.kpi.KPI2
       ctrl.KPI3 = appData.SegmentacionFullerettesComp.General.kpi.KPI3
@@ -34,7 +41,6 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.KPI5 = appData.SegmentacionFullerettesComp.General.kpi.KPI5
       ctrl.KPI6 = appData.SegmentacionFullerettesComp.General.kpi.KPI6
 
-      ctrl.Mapa = appData.SegmentacionFullerettesComp.General.mapa.Mapa
 
     }
 
