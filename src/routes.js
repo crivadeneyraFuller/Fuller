@@ -99,6 +99,24 @@ function Service($routeProvider, $locationProvider) {
     .when('/ventasopibi', {
       template: '<ventasopibi-comp></ventasopibi-comp>'
     })
+    .when('/ventasopibidivision', {
+      template: '<ventasopibidivision-comp></ventasopibidivision-comp>'
+    })
+    .when('/ventasopibidistrito', {
+      template: '<ventasopibidistrito-comp></ventasopibidistrito-comp>'
+    })
+    .when('/ventasopibizona', {
+      template: '<ventasopibizona-comp></ventasopibizona-comp>'
+    })
+    .when('/iniciativas', {
+      template: '<iniciativas-comp></iniciativas-comp>'
+    })
+    .when('/ventaslideres', {
+      template: '<recuperacionlideresventa-comp></recuperacionlideresventa-comp>'
+    })
+    .when('/promocionactividad', {
+      template: '<promocionactividad-comp></promocionactividad-comp>'
+    })
     .otherwise({
       redirectTo: '/'
     })
