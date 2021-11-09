@@ -24,6 +24,12 @@
     "appSeguimientosPagos": "SEGUIMIENTO_PAGOS",
     "appSegmentacionFullerettes": "SEGMENTACION",
     "appVentasopibi": "VENTA_OPI_BI",
+    "appVentasopibiDivision": "VENTA_OPI_BI_DIVISION",
+    "appVentasopibiDistrito": "VENTA_OPI_BI_DISTRITO",
+    "appVentasopibiZona": "VENTA_OPI_BI_ZONA",
+    "appIniciativas": "LISTADO_DE_INACTIVAS",
+    "appRecuperacionLideresVenta": "RECUPERACION_LIDERES_VENTA",
+    "appPromocionActividad": "PROMOCION_ACTIVIDAD_C11",
     "apps": {
         "local": {
             "FullerApp_v1": "FullerApp_v1.qvf",
@@ -50,7 +56,13 @@
             "ConvencionGE": "CONVENCION_GE.qvf",
             "SeguimientosPagos": "SEGUIMIENTO_PAGOS.qvf",
             "SegmentacionFullerettes": "SEGMENTACION.qvf",               
-            "VentasOPI": "VENTA_OPI_BI.qvf"
+            "VentasOPI": "VENTA_OPI_BI.qvf",
+            "VentasOPIBIDivision": "VENTA_OPI_BI_DIVISION.qvf",
+            "VentasOPIBIDistrito": "VENTA_OPI_BI_DISTRITO.qvf",
+            "VentasOPIBIZona": "VENTA_OPI_BI_ZONA.qvf",
+            "Iniciativas": "LISTADO_DE_INACTIVAS.qvf",
+            "RecuperacionLideresVenta": "RECUPERACION_LIDERES_VENTA.qvf",
+            "PromocionActividad": "PROMOCION_ACTIVIDAD_C11.qvf"
         },
         "servidor": {
             "FullerApp_v1": "95ad2dd8-166e-43c0-8f54-fcf19c3130df",
@@ -73,11 +85,17 @@
             "Division": "41596dc2-69b0-40e2-8909-a82ff07bbc2a",
             "Zonas": "2edc5a33-d13a-4e6d-9890-a346978834e1",
             "SeguimientoContratos": "e581ee82-da6c-4ad6-bd6c-2f8c1bb862a9",
-            "ConvencionCE": "4ab09d16-7934-4b98-a5ee-4270f7cdb417",
-            "ConvencionGE": "a7f9434d-b908-4a70-bc98-c01a76de72c1",
+            "ConvencionCE": "66195bce-a8b7-4149-8164-8b9ee8baafa0",
+            "ConvencionGE": "8aa728a3-0537-456b-aee3-cc7419781f6e",
             "SeguimientosPagos": "d867a640-bd23-4df7-b3fc-9d4e8c2941c4",            
             "SegmentacionFullerettes": "a58b7635-d4f3-455d-9bf1-f5d2987c3ccf",                
-            "VentasOPI": "e8b582be-51d9-4874-9a10-14dc0e7370b1"
+            "VentasOPI": "e8b582be-51d9-4874-9a10-14dc0e7370b1",
+            "VentasOPIBIDivision": "a63b8dfd-3312-454a-865d-875a4a080adf",
+            "VentasOPIBIDistrito": "0ab2b9dd-2026-41c9-a1f6-acea3028d87e",
+            "VentasOPIBIZona": "fa94a1e7-8eb9-4e50-84e4-2e6717b4f2c4",
+            "Iniciativas": "77dcdbec-7cd8-429d-8b05-6e5672a28871",
+            "RecuperacionLideresVenta": "6fcbef2f-b485-4311-8e17-fe8e73366deb",
+            "PromocionActividad": "94ac9a10-6b56-46cf-9dfc-56dabefcde0e"
         }
     },
     "Filtros": {
@@ -765,6 +783,126 @@
                 "Filtro4": "aZzehu",
                 "Filtro5": "NThvjpY"
 
+            }
+           
+        }
+
+    },
+    
+    "VentasopibidivisionComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "b632899b-1781-4f5d-b294-1dd79b4dec79"
+            },
+            "filtros":{
+                "Filtro": "gmpHP",
+                "Filtro2": "cchdty",
+                "Filtro3": "YUSJP",
+                "Filtro4": "eYbsn",               
+                "Filtro5": "jkzbL"
+            }
+           
+        }
+
+    },
+    
+    "VentasopibidistritoComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "hqvwmq"
+            },
+            "filtros":{
+                "Filtro": "nFVfc",
+                "Filtro2": "ycJfQZj",
+                "Filtro3": "EdQyKT",
+                "Filtro4": "UDtz",
+                "Filtro5": "LzY"
+
+            }
+           
+        }
+
+    },
+    
+    
+    "VentasopibizonaComp":{
+        "General": {
+            "tabla": {
+                "Tabla": "gYgRs"
+            },
+            "filtros":{
+                "Filtro": "qEHHhb",
+                "Filtro2": "pBdSe",
+                "Filtro3": "EYJr",
+                "Filtro4": "XEhnY",
+                "Filtro5": "JeYgSe"
+
+            }
+           
+        }
+
+    },
+
+    "IniciativasComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "QXNJsA"
+            },
+            "filtros":{
+                "Filtro": "WHTPmp",
+                "Filtro2": "KDpGq",
+                "Filtro3": "zCqETju",
+                "Filtro4": "dmfjAYD",
+                "Filtro5": "HgqWY",
+                "Filtro6": "ZmekwBy",
+                "Filtro7": "pjdR",
+                "Filtro8": "XLJYkH"
+            }
+           
+        }
+
+    },
+    
+
+    "RecuperacionLideresVentasComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "ByKHdH",
+                "Tabla2": "uRhswxv"
+            },
+            "filtros":{
+                "Filtro": "PgAHQp",
+                "Filtro2": "DGMcsy",
+                "Filtro3": "HPDLC",
+                "Filtro4": "SdPxXj",
+                "Filtro5": "WFLjQ",
+                "Filtro6": "SJPDZTq"
+            }
+           
+        }
+
+    },
+    
+
+    "PromocionActividadComp":{
+
+        "General": {
+            "tabla": {
+                "Tabla": "mTUFVyb"
+            },
+            "filtros":{
+                "Filtro": "gLcZwJ",
+                "Filtro2": "mmfnZY",
+                "Filtro3": "MeAgy",
+                "Filtro4": "pmRNXg",
+                "Filtro5": "vYgXjp",
+                "Filtro6": "aVVTqZ"
+            },
+            "kpi": {
+
+                "KPI": "ejKEY"
             }
            
         }

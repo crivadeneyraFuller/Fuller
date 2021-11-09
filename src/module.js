@@ -47,6 +47,12 @@ import convenciongeComp from './components/web/convencionGEComp/convencionGEComp
 import seguimientospagosComp from './components/web/seguimientosPagosComp/seguimientosPagosComp'
 import segmentacionfullerettesComp from './components/web/segmentacionFullerettesComp/segmentacionFullerettesComp'
 import ventasopibiComp from './components/web/ventasopibiComp/ventasopibiComp'
+import ventasopibidivisionComp from './components/web/ventasopibiDivisionComp/ventasopibiDivisionComp'
+import ventasopibidistritoComp from './components/web/ventasopibiDistritoComp/ventasopibiDistritoComp'
+import ventasopibizonaComp from './components/web/ventasopibiZonaComp/ventasopibiZonaComp'
+import iniciativasComp from './components/web/iniciativasComp/iniciativasComp'
+import recuperacionlideresventaComp from './components/web/recuperacionlideresVentaComp/recuperacionlideresVentaComp'
+import promocionactividadComp from './components/web/promocionActividadComp/promocionActividadComp'
 
 const appModule = (qlik, responseJson) => (
   angular.module('app', ['ngRoute'])
@@ -99,6 +105,12 @@ const appModule = (qlik, responseJson) => (
   .component('seguimientospagosComp', seguimientospagosComp)
   .component('segmentacionfullerettesComp', segmentacionfullerettesComp)
   .component('ventasopibiComp', ventasopibiComp)
+  .component('ventasopibidivisionComp',ventasopibidivisionComp)
+  .component('ventasopibidistritoComp',ventasopibidistritoComp)
+  .component('ventasopibizonaComp',ventasopibizonaComp)
+  .component('iniciativasComp', iniciativasComp)
+  .component('recuperacionlideresventaComp',recuperacionlideresventaComp)
+  .component('promocionactividadComp', promocionactividadComp)
   .directive('deltaColor', deltaColor)
   .directive('carouselComp', carouselComp)
 )

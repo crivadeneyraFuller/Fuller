@@ -17,7 +17,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Filtro8 = appData.ZonasComp.General.filtros.Filtro8
   
     }
-
+    
     ctrl.exportDataExcel = (idQlik) => {
       openApp['Zonas'].getObject(idQlik).then(function (vizModel) {
         vizModel.exportData().then(function (reply) {
@@ -27,7 +27,13 @@ function Controller(appData, $scope, $rootScope, openApp) {
           link.click();
           link.remove();
         });
-      });
+      }).catch(function(err){
+
+        console.log(idQlik);
+        console.log('Error al tratar de descargar la tabla')
+        console.log(err);
+
+      });;
     };
   }
   
