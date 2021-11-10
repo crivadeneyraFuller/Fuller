@@ -1,0 +1,41 @@
+header-comp
+
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2( style="height: 8.625rem" )
+  .row.pt-sm-3.pt-md-4.flex-wrap
+    .col-12
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Brigada de Contratos C12, C13, C14
+      
+.container-fluid.pb-4.dashboard-page
+  .row.mb-md-3.pb-md-3
+    .col-12.mt-3
+     .card
+      .card__content.mb-2
+           a.mb-3( href="#/otrosReportesSeleccion" style="float: right")
+             img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+   
+      .card-header 
+       .btn-group
+      
+      .card-body
+       div.fade-in
+        .row
+          .col-lg-2.col-sm-12
+           .card
+             get-object( obj-id='{{ $ctrl.Filtro }}' height='50px' style="width: 100%;" app='BrigadaContratos' num-obj='1' options='false')  
+             get-object( obj-id='{{ $ctrl.Filtro2 }}' height='50px' style="width: 100%;" app='BrigadaContratos' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.Filtro3 }}' height='50px' style="width: 100%;" app='BrigadaContratos' num-obj='1' options='false')    
+          .col-lg-10.col-sm-12
+           .card
+            .car-header
+             .d-flex.align-items-center.justify-content-between.mt-3
+              button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('26cda10e-00a3-4264-963b-f668a1bc60a6')" )
+               span.pr-3.txt-light Exportar
+               img( src='../../../assets/icons/icon-excel.svg' )
+            .card-body
+              get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='BrigadaContratos' num-obj='1' options='false')
+
+
+
+        
+        
+modalTimer-comp    

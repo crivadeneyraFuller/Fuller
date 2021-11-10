@@ -153,7 +153,51 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/convencionce' && next && next.$$route && next.$$route.originalPath != '/convencionce') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/convencionge' && next && next.$$route && next.$$route.originalPath != '/convencionge') { 
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
         else if (curr && curr.$$route && curr.$$route.originalPath == '/seguimientospagos' && next && next.$$route && next.$$route.originalPath != '/seguimientospagos') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/segmentacionfullerettes' && next && next.$$route && next.$$route.originalPath != '/segmentacionfullerettes') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/ventasopibi' && next && next.$$route && next.$$route.originalPath != '/ventasopibi') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/ventasopibidivision' && next && next.$$route && next.$$route.originalPath != '/ventasopibidivision') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/ventasopibidistrito' && next && next.$$route && next.$$route.originalPath != '/ventasopibidistrito') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/ventasopibizona' && next && next.$$route && next.$$route.originalPath != '/ventasopibizona') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/iniciativas' && next && next.$$route && next.$$route.originalPath != '/iniciativas') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/promocionactividad' && next && next.$$route && next.$$route.originalPath != '/promocionactividad') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/ventaslideres' && next && next.$$route && next.$$route.originalPath != '/ventaslideres') {
+          ctrl.openApp.clearAll();
+          ctrl.setCurrentYearBlock();
+        }
+        else if (curr && curr.$$route && curr.$$route.originalPath == '/brigadacontratos' && next && next.$$route && next.$$route.originalPath != '/brigadacontratos') {
           ctrl.openApp.clearAll();
           ctrl.setCurrentYearBlock();
         }
@@ -245,10 +289,44 @@ function Controller(appData, openApp, $scope, $filter, $rootScope) {
         else if (next && next.$$route && next.$$route.originalPath  == '/seguimientocontratos' ) {
           ctrl.openApp.clearAll();
         }
-         // cuando refrescas sobre Otros Reportes se limpian
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/convencionce' ) {
+          ctrl.openApp.clearAll();
+        }
+        // cuando refrescas sobre Otros Reportes se limpian
+        else if (next && next.$$route && next.$$route.originalPath  == '/convencionge' ) {
+         // cuando refrescas sobre Otros Reportes se limpianctrl.openApp.clearAll();
+        }
          else if (next && next.$$route && next.$$route.originalPath  == '/seguimientospagos' ) {
           ctrl.openApp.clearAll();
         }
+        else if (next && next.$$route && next.$$route.originalPath  == '/segmentacionfullerettes' ) {
+         ctrl.openApp.clearAll();
+       }
+       else if (next && next.$$route && next.$$route.originalPath  == '/ventasopibi' ) {
+        ctrl.openApp.clearAll();
+      }
+      else if (next && next.$$route && next.$$route.originalPath  == '/ventasopibidivision' ) {
+       ctrl.openApp.clearAll();
+     }
+     else if (next && next.$$route && next.$$route.originalPath  == '/ventasopibidistrito' ) {
+      ctrl.openApp.clearAll();
+    }
+    else if (next && next.$$route && next.$$route.originalPath  == '/ventasopibizona' ) {
+     ctrl.openApp.clearAll();
+   }
+   else if (next && next.$$route && next.$$route.originalPath  == '/ventaslideres' ) {
+    ctrl.openApp.clearAll();
+  }
+   else if (next && next.$$route && next.$$route.originalPath  == '/iniciativas' ) {
+    ctrl.openApp.clearAll();
+  }
+  else if (next && next.$$route && next.$$route.originalPath  == '/iniciativas' ) {
+   ctrl.openApp.clearAll();
+ }
+  else if (next && next.$$route && next.$$route.originalPath  == '/brigadacontratos' ) {
+   ctrl.openApp.clearAll();
+ }
         // cuando refrescas sobre NO MovBancarios / ReporteDinamico se limpian
         else if (next && next.$$route && next.$$route.originalPath  != '/movimientosBancarios') {
           ctrl.openApp.clearAll();

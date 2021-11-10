@@ -7,6 +7,8 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.openApp = openApp[ctrl.app || appData.appSeguimientoContratos];
       ctrl.mobile = ($(window).width() < 767) ? true : false;
       ctrl.Tabla = appData.SeguimientoContratosComp.General.tabla.Tabla
+      ctrl.Tabla2 = appData.SeguimientoContratosComp.General.tabla.Tabla2
+      ctrl.Tabla3 = appData.SeguimientoContratosComp.General.tabla.Tabla3
       ctrl.Filtro = appData.SeguimientoContratosComp.General.filtros.Filtro
       ctrl.Filtro2 = appData.SeguimientoContratosComp.General.filtros.Filtro2
       ctrl.Filtro3 = appData.SeguimientoContratosComp.General.filtros.Filtro3

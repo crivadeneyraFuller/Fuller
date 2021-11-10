@@ -1,0 +1,91 @@
+header-comp
+
+.header__cover.position-relative.container-fluid.d-flex.align-content-center.d-sm-block.py-4.py-sm-0.cover2( style="height: 8.625rem" )
+  .row.pt-sm-3.pt-md-4.flex-wrap
+    .col-12
+      span.is-h3.is-font-weight--normal.text-pinkDark.ml-2.pr-5.main-title Retención de Fullerettes 
+      
+.container-fluid.pb-4.dashboard-page
+  .row.mb-md-3.pb-md-3
+    .col-12.mt-3
+     .card
+      .card__content.mb-2
+           a.mb-3( href="#/otrosReportesSeleccion" style="float: right")
+             img.logoRegresar( src='../../../assets/icons/icon-regresar.svg' )
+   
+      .card-header 
+       .btn-group
+        button.btn( ng-click="$ctrl.ClickTblHoja1()" id="BtnHoja1" ) Dashboard
+        button.btn( ng-click="$ctrl.ClickTblHoja2()" id="BtnHoja2"  ) Gráficos
+      
+      .card-body
+
+       div
+        .row
+          .col-lg-1.col-sm-12
+           .card
+
+             get-object( obj-id='{{ $ctrl.Filtro }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')  
+             get-object( obj-id='{{ $ctrl.Filtro2 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.Filtro3 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')        
+             get-object( obj-id='{{ $ctrl.Filtro4 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')          
+             get-object( obj-id='{{ $ctrl.Filtro5 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.Filtro6 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.Filtro7 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')         
+             get-object( obj-id='{{ $ctrl.Filtro8 }}' height='50px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+
+          .col-lg-11.col-sm-12
+           .card.fade-in(id="SectionHoja1" ng-if="Hoja1")
+            .card-headar 
+             span.is-h4.is-font-weight--normal Retención de Fullerettes por segmento
+            .card-body             
+             .row 
+              .col-lg-6.col-sm-12
+               get-object( obj-id='{{ $ctrl.Imagen }}' height='300px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+        
+              .col-lg-6.col-sm-12
+               .row 
+                .col-lg-4.col-sm-12 
+                 get-object( obj-id='{{ $ctrl.KPI }}' height='100px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+                .col-lg-4.col-sm-12 
+                 get-object( obj-id='{{ $ctrl.KPI2 }}' height='100px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+                .col-lg-4.col-sm-12  
+                 get-object( obj-id='{{ $ctrl.KPI3 }}' height='100px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')  
+                .col-lg-4.col-sm-12 
+                 get-object( obj-id='{{ $ctrl.KPI4 }}' height='100px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+                .col-lg-4.col-sm-12  
+                 get-object( obj-id='{{ $ctrl.KPI5 }}' height='100px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+                .col-lg-4.col-sm-12  
+                 get-object( obj-id='{{ $ctrl.KPI6 }}' height='100px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+              .col-lg-6.col-sm-12
+               .d-flex.align-items-center.justify-content-between.mt-3
+                button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('JckNbu')" )
+                 span.pr-3.txt-light Exportar
+                 img( src='../../../assets/icons/icon-excel.svg' )
+               get-object( obj-id='{{ $ctrl.Tabla }}' height='300px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+              .col-lg-6.col-sm-12
+               get-object( obj-id='{{ $ctrl.Grafico }}' height='300px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+              
+              .col-lg-12.col-sm-12
+               .d-flex.align-items-center.justify-content-between.mt-3
+                button.ml-auto.btn.btn-primary.bg-white.border-0.px-3.mb-2( ng-click="$ctrl.exportDataExcel('HBgzY')" )
+                 span.pr-3.txt-light Exportar
+                 img( src='../../../assets/icons/icon-excel.svg' )
+               get-object( obj-id='{{ $ctrl.Tabla2 }}' height='600px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false')
+           
+           .card.fade-in(id="SectionHoja2" ng-if="Hoja2") 
+            .card-headar 
+             span.is-h4.is-font-weight--normal Segmentación de Fullerettes
+
+            .card-body 
+             .row 
+              .col-lg-12.col-sm-12  
+               get-object( obj-id='{{ $ctrl.Grafico2 }}' height='800px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+               get-object( obj-id='{{ $ctrl.Grafico3 }}' height='800px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+               get-object( obj-id='{{ $ctrl.Grafico4 }}' height='800px' style="width: 100%;" app='SegmentacionFullerettes' num-obj='1' options='false') 
+
+
+          
+    
+        
+modalTimer-comp    

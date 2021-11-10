@@ -25,6 +25,8 @@ import pug from './headerComp.pug'
         qlik.resize();
       },1500)
     }
+
+
   }
 
   const headerComp = {

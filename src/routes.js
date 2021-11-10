@@ -5,7 +5,7 @@
  * @param {Object} $routeProvider -
  * @return {Object} - All routes
  */
-function Service($routeProvider, $locationProvider) {
+ function Service($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('')
   $routeProvider
     .when('/', {      
@@ -84,8 +84,41 @@ function Service($routeProvider, $locationProvider) {
     .when('/seguimientocontratos', {
       template: '<seguimientoContratos-comp></seguimientoContratos-comp>'
     })
+    .when('/convencionce', {
+      template: '<convencionce-comp></convencionce-comp>'
+    })
+    .when('/convencionge', {
+      template: '<convencionge-comp></convencionge-comp>'
+    })
     .when('/seguimientospagos', {
       template: '<seguimientosPagos-comp></seguimientosPagos-comp>'
+    })
+    .when('/segmentacionfullerettes', {
+      template: '<segmentacionFullerettes-comp></segmentacionFullerettes-comp>'
+    })
+    .when('/ventasopibi', {
+      template: '<ventasopibi-comp></ventasopibi-comp>'
+    })
+    .when('/ventasopibidivision', {
+      template: '<ventasopibidivision-comp></ventasopibidivision-comp>'
+    })
+    .when('/ventasopibidistrito', {
+      template: '<ventasopibidistrito-comp></ventasopibidistrito-comp>'
+    })
+    .when('/ventasopibizona', {
+      template: '<ventasopibizona-comp></ventasopibizona-comp>'
+    })
+    .when('/iniciativas', {
+      template: '<iniciativas-comp></iniciativas-comp>'
+    })
+    .when('/ventaslideres', {
+      template: '<recuperacionlideresventa-comp></recuperacionlideresventa-comp>'
+    })
+    .when('/promocionactividad', {
+      template: '<promocionactividad-comp></promocionactividad-comp>'
+    })
+    .when('/brigadacontratos', {
+      template: '<brigadacontratos-comp></brigadacontratos-comp>'
     })
     .otherwise({
       redirectTo: '/'

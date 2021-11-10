@@ -1,0 +1,20 @@
+
+button.btn.btn-primary(hidden id="BtnModalChronometer" type='button', data-toggle="modal", data-target="#myModal" data-backdrop='static' data-keyboard='false' ng-click='$ctrl.ChronometerModal()')
+
+//- Modal
+.modal.fade(id="myModal" style="background-color: rgba(5, 0, 0, 0.5);")
+  .modal-dialog
+    .modal-content
+      .modal-header(style="border:none;")
+        h4#modalCompLabel.modal-title
+        
+      .modal-body(style="text-align:center")
+       .h4(style="font-size:20px; ") Hemos notado inactividad en tu sesión, y esta expirará en:
+       .div(style='height:10px') 
+       .div(style='background-color: whitesmoke; width:50%; margin:0 auto;')
+         label(style='font-size: 2rem') {{countdown_}}
+       .div(style='height:10px') 
+       .h4(style="font-size:20px; ") ¿Qué deseas hacer?  
+      .modal-footer(style="border:none; margin: 0 auto;")        
+        button.btn.btn-secondary(type='button', data-dismiss='modal' style="background-color: whitesmoke; border-color: whitesmoke; color: black" ng-click="$ctrl.Logout()") Cerrar sesión
+        button.btn.btn-secondary(type='button', data-dismiss='modal' style='background-color:#B03E63; border-color:#B03E63' ng-click="$ctrl.KeepSesion()") Mantener sesión
