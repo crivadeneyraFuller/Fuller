@@ -24,7 +24,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
     ctrl.exportDataExcel = (idQlik) => {
       openApp['PromocionActividad'].getObject(idQlik).then(function (vizModel) {
         vizModel.exportData().then(function (reply) {
-          var link = document.createElement("a");
+          var link = document.createElement("a"); 
           link.href = reply.qUrl;
           link.download = reply.qUrl.substr(reply.qUrl.lastIndexOf("/") + 1);
           link.click();
