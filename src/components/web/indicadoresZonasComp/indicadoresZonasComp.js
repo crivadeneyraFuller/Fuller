@@ -15,7 +15,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Filtro6 = appData.ZonasComp.General.filtros.Filtro6
       ctrl.Filtro7 = appData.ZonasComp.General.filtros.Filtro7
       ctrl.Filtro8 = appData.ZonasComp.General.filtros.Filtro8
-  
+      ctrl.Filtro9 = appData.ZonasComp.General.filtros.Filtro9
     }
     
     ctrl.exportDataExcel = (idQlik) => {
