@@ -15,6 +15,7 @@ function Controller(appData, $scope, $rootScope, openApp) {
       ctrl.Filtro6 = appData.SeguimientosPagosComp.General.filtros.Filtro6
       ctrl.Filtro7 = appData.SeguimientosPagosComp.General.filtros.Filtro7
       ctrl.Filtro8 = appData.SeguimientosPagosComp.General.filtros.Filtro8  
+      ctrl.Filtro9 = appData.SeguimientosPagosComp.General.filtros.Filtro9  
 
       
       console.log(appData.appSeguimientosPagos)
